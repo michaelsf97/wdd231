@@ -6,13 +6,15 @@
 }
 
 
-.header {
+header {
     color: #333333;
     text-align:center;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     font-size: 2rem;
+    background-color: #f00;
+    
 }
 
 /*Data Section (Left)*/
