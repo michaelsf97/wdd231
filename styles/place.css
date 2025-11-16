@@ -26,7 +26,7 @@ header {
     border: 2px solid #131313;
     border-radius: 15px;
     padding: 1.5rem;
-    background-color: rgba(255, 255, 255, 0.80);
+    background-color: rgba(255, 255, 255, 0.92);
     float: left;
     width: 25%;
 }
@@ -46,6 +46,37 @@ header {
     font-weight: bold;
     color: #000;
 }
+
+.weather-section {
+    margin: 1rem;
+    padding: 1rem;
+    border: 3px solid #131313;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.80);
+    float: right;
+    width: 25%;
+
+
+}
+
+.weather-section h3 {
+    font-family: Italic, sans-serif;
+    color:#131212;
+}
+
+.weather-section p {
+    margin: 0,5rem;
+    font-size: 1.1rem;
+
+}
+
+
+.weather-section strong {
+    font-weight: bold;
+    color: #000;
+}
+
+
 
 body {
     font-family: Italic, sans-serif;
