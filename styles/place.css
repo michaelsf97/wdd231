@@ -67,6 +67,26 @@ header {
     color:#131212;
 }
 
+/* Weather icon - emoji for desktop */
+.weather-section h3::after {
+    content: "☀️";
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* Weather icon - SVG for mobile */
+@media (max-width: 768px) {
+    .weather-section h3::after {
+        content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="%23FDB813"><circle cx="12" cy="12" r="5"/><path d="M12 1v3m0 16v3M3.22 3.22l2.12 2.12m13.44 13.44l2.12 2.12M1 12h3m16 0h3M3.22 20.78l2.12-2.12m13.44-13.44l2.12-2.12"/></svg>');
+        font-size: 1rem;
+        width: 48px;
+        height: 48px;
+        margin: 0.5rem auto;
+    }
+}
+
 .weather-section p {
     margin: 0,5rem;
     font-size: 1.1rem;
