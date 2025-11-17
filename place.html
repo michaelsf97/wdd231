@@ -6,12 +6,18 @@
     <meta name="description" content="This madagascar website indicates unto us the importance to kno about this place cultures and some dates and weather itself">
     <meta name="author" content="Michael Smith Saavedra Forero">
     <link rel="stylesheet" href="styles/place.css">
-    <script src = "scripts/place.js" defer></script>
+    <script src="scripts/place.js" defer></script>
     <title>Malta - Place</title>
 </head>
-<header> Malta - Place</header>
+
+
+<header>
+    <h1>Malta - Place</h1>
+</header>
+
 
 <body>
+    <main>
     <div class="hero-image-section">
         <picture>
             <source media="(max-width: 768px)" srcset="images/malta-mobile.svg" type="image/svg+xml">
@@ -35,6 +41,11 @@
 <section class="weather-section">
     <h3>Weather</h3>
     
+    <svg class="weather-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" fill="#FDB813">
+        <circle cx="12" cy="12" r="5"/>
+        <path d="M12 1v3m0 16v3M3.22 3.22l2.12 2.12m13.44 13.44l2.12 2.12M1 12h3m16 0h3M3.22 20.78l2.12-2.12m13.44-13.44l2.12-2.12" stroke="#FDB813" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    
     <p><strong>Temperature:</strong> <span id="temperature">10</span>°C</p>
     <p><strong>Conditions:</strong> Partly Cloudy</p>
     <p><strong>Wind:</strong> <span id="windSpeed">5</span>km/h</p>
@@ -45,6 +56,8 @@
     <p>&copy; <span id="currentyear"></span> | Michael Smith Saavedra Forero | Malta</p>
     <p>Last Modified: <span id="lastModified"></span></p>
 </footer>
+
+</main>
 
 </body>
 </html>

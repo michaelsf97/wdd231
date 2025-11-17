@@ -104,13 +104,12 @@ header {
     font-size: 1.5rem;
 }
 
-/* Weather icon - Pseudo element for LARGE view (desktop) */
-.weather-section h3::after {
-    content: "☀️";
+/* Weather icon - SVG styling */
+.weather-icon {
     display: block;
-    font-size: 3rem;
-    text-align: center;
-    margin-top: var(--spacing-small);
+    margin: var(--spacing-medium) auto;
+    width: 64px;
+    height: 64px;
 }
 
 .weather-section p {
@@ -158,12 +157,9 @@ footer p {
         padding: var(--spacing-small);
     }
     
-    /* Weather icon - SVG for mobile view */
-    .weather-section h3::after {
-        content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="%23FDB813"><circle cx="12" cy="12" r="5"/><path d="M12 1v3m0 16v3M3.22 3.22l2.12 2.12m13.44 13.44l2.12 2.12M1 12h3m16 0h3M3.22 20.78l2.12-2.12m13.44-13.44l2.12-2.12"/></svg>');
-        font-size: 1rem;
+    /* Smaller weather icon for mobile */
+    .weather-icon {
         width: 48px;
         height: 48px;
-        margin: var(--spacing-small) auto;
     }
 }
