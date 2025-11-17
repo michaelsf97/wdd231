@@ -104,6 +104,17 @@ header {
     font-size: 1.5rem;
 }
 
+/* Pseudo-element decorative accent after heading */
+.weather-section h3::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: var(--accent-color);
+    margin: 0.5rem auto 0;
+    border-radius: 2px;
+}
+
 /* Weather icon - SVG styling */
 .weather-icon {
     display: block;
