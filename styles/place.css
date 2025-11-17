@@ -104,6 +104,15 @@ header {
     font-size: 1.5rem;
 }
 
+/* Emoticon for desktop/large view using pseudo-element */
+.weather-section h3::before {
+    content: "☀️";
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: var(--spacing-small);
+}
+
 /* Pseudo-element decorative accent after heading */
 .weather-section h3::after {
     content: "";
@@ -115,12 +124,9 @@ header {
     border-radius: 2px;
 }
 
-/* Weather icon - SVG styling */
+/* Weather icon - SVG - hide on desktop */
 .weather-icon {
-    display: block;
-    margin: var(--spacing-medium) auto;
-    width: 64px;
-    height: 64px;
+    display: none;
 }
 
 .weather-section p {
@@ -168,9 +174,16 @@ footer p {
         padding: var(--spacing-small);
     }
     
-    /* Smaller weather icon for mobile */
+    /* Hide emoticon on mobile */
+    .weather-section h3::before {
+        display: none;
+    }
+    
+    /* Show SVG weather icon on mobile only */
     .weather-icon {
+        display: block;
         width: 48px;
         height: 48px;
+        margin: var(--spacing-medium) auto;
     }
 }
