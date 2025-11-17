@@ -104,3 +104,19 @@ body {
     display:block;
     opacity: 0.8;
 }
+
+
+/* Media */
+@media (max-width: 768px) {
+
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        gap: 20px; 
+    
+    }
+    
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
