@@ -1,4 +1,4 @@
-/* CSS Variables */
+/* Variables */
 :root {
     --primary-color: #333333;
     --secondary-color: #f0f0f0;
@@ -26,7 +26,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
+/* Header */ 
 header {
     color: var(--primary-color);
     text-align: center;
@@ -78,7 +78,7 @@ header {
     font-size: 1.1rem;
 }
 
-.data-section strong {
+.data-section-strong {
     font-weight: bold;
     color: var(--primary-color);
 }
@@ -104,7 +104,8 @@ header {
     font-size: 1.5rem;
 }
 
-/* Emoticon for desktop/large view using pseudo-element */
+/* Pseudo-element emoticon */
+
 .weather-section h3::before {
     content: "☀️";
     display: block;
@@ -113,7 +114,8 @@ header {
     margin-bottom: var(--spacing-small);
 }
 
-/* Pseudo-element decorative accent after heading */
+/* Pseudo element decorative after heading */
+
 .weather-section h3::after {
     content: "";
     display: block;
@@ -124,14 +126,15 @@ header {
     border-radius: 2px;
 }
 
-/* Weather icon - SVG - hide on desktop */
+/* Weather Icon - SVG - hide on desktop */
+
 .weather-icon {
     display: none;
 }
 
 .weather-section p {
     margin: var(--spacing-small) 0;
-    font-size: 1.1rem;
+    font-size: 1.1 rem;
 }
 
 .weather-section strong {
@@ -140,6 +143,7 @@ header {
 }
 
 /* Footer */
+
 footer {
     background-color: var(--primary-color);
     color: white;
@@ -153,8 +157,9 @@ footer p {
 }
 
 /* Media Query - Mobile/Small Screens */
-@media (max-width: 768px) {
+@media(max-width: 768px) {
     /* Stack sections vertically for mobile */
+
     .hero-image-section {
         height: auto;
         min-height: 400px;
@@ -175,7 +180,7 @@ footer p {
     }
     
     /* Hide emoticon on mobile */
-    .weather-section h3::before {
+    .weather section h3::before {
         display: none;
     }
     
