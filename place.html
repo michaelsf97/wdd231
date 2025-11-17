@@ -13,8 +13,11 @@
 
 <body>
     <div class="hero-image-section">
-        <img srcset = "images/malta-mobile.svg"> 
-        <img srcset="images/malta.webp" alt="Narrow cobblestone street between historic limestone buildings with ancient arched">
+        <picture>
+            <source media="(max-width: 768px)" srcset="images/malta-mobile.svg" type="image/svg+xml">
+            <source srcset="images/malta.webp" type="image/webp">
+            <img src="images/malta.webp" alt="Narrow cobblestone street between historic limestone buildings with ancient arched">
+        </picture>
         
         <section class="data-section">
             <h2>Data</h2>
