@@ -1,3 +1,18 @@
+/* CSS Variables */
+:root {
+    --primary-color: #333333;
+    --secondary-color: #f0f0f0;
+    --accent-color: #FDB813;
+    --text-color: #131313;
+    --border-color: #131313;
+    --box-bg-light: rgba(255, 255, 255, 0.85);
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    --border-radius: 15px;
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 1.5rem;
+    --font-main: Arial, sans-serif;
+}
 
 * {
     margin: 0;
@@ -5,115 +20,28 @@
     box-sizing: border-box;
 }
 
-
-header {
-    color: #333333;
-    text-align:center;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    font-size: 2rem;
-    background-color: #f00;
-    
-}
-
-/*Data Section (Left)*/
-.data-section {
-    position: absolute;
-    top: 50%;
-    left: 32px;
-    transform: translateY(-50%);
-    border: 2px solid #131313;
-    border-radius: 15px;
-    padding: 1.5rem;
-    background-color: rgba(255, 255, 255, 0.85);
-    width: 300px;
-    max-width: 30%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-}
-
-.data-section h2 {
-    font-family: italic, sans-serif;
-    color:#131212;
-
-}
-
-.data-section p {
-    margin: 0.5rem 0;
-    font-size: 1.1rem;
-}
-
-.data-section strong {
-    font-weight: bold;
-    color: #000;
-}
-
-.weather-section {
-    position: absolute;
-    top: 50%;
-    right: 32px;
-    transform: translateY(-50%);
-    padding: 1.5rem;
-    border: 2px solid #131313;
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.85);
-    width: 300px;
-    max-width: 30%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-}
-
-.weather-section h3 {
-    font-family: Italic, sans-serif;
-    color:#131212;
-}
-
-/* Weather icon - emoji for desktop */
-.weather-section h3::after {
-    content: "☀️";
-    display: block;
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 0.5rem;
-}
-
-/* Weather icon - SVG for mobile */
-@media (max-width: 768px) {
-    .weather-section h3::after {
-        content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="%23FDB813"><circle cx="12" cy="12" r="5"/><path d="M12 1v3m0 16v3M3.22 3.22l2.12 2.12m13.44 13.44l2.12 2.12M1 12h3m16 0h3M3.22 20.78l2.12-2.12m13.44-13.44l2.12-2.12"/></svg>');
-        font-size: 1rem;
-        width: 48px;
-        height: 48px;
-        margin: 0.5rem auto;
-    }
-}
-
-.weather-section p {
-    margin: 0,5rem;
-    font-size: 1.1rem;
-
-}
-
-
-.weather-section strong {
-    font-weight: bold;
-    color: #000;
-}
-
-
-
 body {
-    font-family: Italic, sans-serif;
-    background-color: #f3efef;
+    font-family: var(--font-main);
+    background-color: var(--secondary-color);
+    line-height: 1.6;
 }
 
-/* Hero Image Section (Center) */
+/* Header */
+header {
+    color: var(--primary-color);
+    text-align: center;
+    padding: var(--spacing-medium);
+    font-size: 2rem;
+    background-color: var(--secondary-color);
+    border-bottom: 2px solid var(--border-color);
+}
 
+/* Hero Image Section */
 .hero-image-section {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 600px;
     overflow: hidden;
-
 }
 
 .hero-image-section img {
@@ -121,22 +49,121 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    display:block;
-    opacity: 0.8;
+    display: block;
 }
 
+/* Data Section (Left overlay on hero) */
+.data-section {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    transform: translateY(-50%);
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-large);
+    background-color: var(--box-bg-light);
+    width: 300px;
+    max-width: 30%;
+    box-shadow: var(--box-shadow);
+}
 
-/* Media */
+.data-section h2 {
+    color: var(--text-color);
+    margin-bottom: var(--spacing-medium);
+    font-size: 1.5rem;
+}
+
+.data-section p {
+    margin: var(--spacing-small) 0;
+    font-size: 1.1rem;
+}
+
+.data-section strong {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Weather Section (Right overlay on hero) */
+.weather-section {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    transform: translateY(-50%);
+    padding: var(--spacing-large);
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--box-bg-light);
+    width: 300px;
+    max-width: 30%;
+    box-shadow: var(--box-shadow);
+}
+
+.weather-section h3 {
+    color: var(--text-color);
+    margin-bottom: var(--spacing-medium);
+    font-size: 1.5rem;
+}
+
+/* Weather icon - Pseudo element for LARGE view (desktop) */
+.weather-section h3::after {
+    content: "☀️";
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: var(--spacing-small);
+}
+
+.weather-section p {
+    margin: var(--spacing-small) 0;
+    font-size: 1.1rem;
+}
+
+.weather-section strong {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: var(--spacing-large);
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.25rem 0;
+}
+
+/* Media Query - Mobile/Small Screens */
 @media (max-width: 768px) {
-
-    main {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
-        gap: 20px; 
-    
+    /* Stack sections vertically for mobile */
+    .hero-image-section {
+        height: auto;
+        min-height: 400px;
     }
     
-    header h1 {
+    .data-section,
+    .weather-section {
+        position: static;
+        transform: none;
+        width: 90%;
+        max-width: 100%;
+        margin: var(--spacing-medium) auto;
+    }
+    
+    header {
         font-size: 1.5rem;
+        padding: var(--spacing-small);
+    }
+    
+    /* Weather icon - SVG for mobile view */
+    .weather-section h3::after {
+        content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="%23FDB813"><circle cx="12" cy="12" r="5"/><path d="M12 1v3m0 16v3M3.22 3.22l2.12 2.12m13.44 13.44l2.12 2.12M1 12h3m16 0h3M3.22 20.78l2.12-2.12m13.44-13.44l2.12-2.12"/></svg>');
+        font-size: 1rem;
+        width: 48px;
+        height: 48px;
+        margin: var(--spacing-small) auto;
     }
 }
