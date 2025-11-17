@@ -26,9 +26,10 @@ header {
     border: 2px solid #131313;
     border-radius: 15px;
     padding: 1.5rem;
-    background-color: #f3efef;
-    float: left;
-    width: 25%;
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 300px;
+    max-width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .data-section h2 {
@@ -48,17 +49,17 @@ header {
 }
 
 .weather-section {
-    margin: 1rem;
     position: absolute;
     top: 50%;
     right: 32px;
     transform: translateY(-50%);
     padding: 1.5rem;
     border: 2px solid #131313;
-    background-color: rgba(255, 255, 255, 0.92);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
     width: 300px;
     max-width: 30%;
-    box-shadow: 0 4p 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .weather-section h3 {
