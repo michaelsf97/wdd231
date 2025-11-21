@@ -62,8 +62,7 @@ const filteredTemples = [
     location: "Rome, Italy",
     dedicated: "10-12 March 2019 by Russell M. Nelson",
     area: 41010,
-    imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-2642-main.jpg"
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-2642-main.jpg"
   },
 
   {
@@ -71,8 +70,7 @@ const filteredTemples = [
     location: "Preston England",
     dedicated: "7-10 June 1998 by Gordon B. Hinckley",
     area: 69630,
-    imageUrl:
-    "https://churchofjesuschristtemples.org/assets/img/temples/preston-england-temple/preston-england-temple-45357-main.jpg"
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/preston-england-temple/preston-england-temple-45357-main.jpg"
   }, 
   
 ]
@@ -91,11 +89,13 @@ document.getElementById("lastModified").textContent = document.lastModified;
 
 const temples = filteredTemples;
 
+const main = document.querySelector("main");
+
 createTempleCard(temples);
 
 // Adding main reference for appending cards
 
-const main = document.querySelector("main");
+
 
 
 function createTempleCard(filteredTemples) {
