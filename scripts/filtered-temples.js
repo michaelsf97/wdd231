@@ -59,7 +59,7 @@ const filteredTemples = [
     dedicated: "7-9 September 1958 by David O. Mckay", 
     area: 42652,
     imageUrl:
-     "https://churchofjesuschristtemples.org/london-england-temple/photographs/"
+     "https://churchofjesuschristtemples.org/assets/img/temples/london-england-temple/london-england-temple-55593-thumb.jpg"
   },
 
   {
@@ -68,7 +68,7 @@ const filteredTemples = [
     dedicated: "10-12 March 2019 by Russell M. Nelson",
     area: 41010,
     imageUrl:
-    "https://churchofjesuschristtemples.org/rome-italy-temple/photographs/"
+    "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-2642-main.jpg"
   },
 
   {
@@ -77,7 +77,7 @@ const filteredTemples = [
     dedicated: "7-10 June 1998 by Gordon B. Hinckley",
     area: 69630,
     imageUrl:
-    "https://churchofjesuschristtemples.org/preston-england-temple/photographs/"
+    "https://churchofjesuschristtemples.org/assets/img/temples/preston-england-temple/preston-england-temple-45357-main.jpg"
   }, 
   
 ]
