@@ -93,7 +93,7 @@ const temples = filteredTemples;
 const main = document.querySelector("main");
 
 // Utility to clear main content
-function clearMain {
+function clearMain() {
   while (main.firstChild) {
     main.removeChild(main.firstChild);
   }
