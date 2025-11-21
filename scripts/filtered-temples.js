@@ -88,14 +88,18 @@ document.getElementById("currentyear").textContent = new Date().getFullYear();
 // Set last modified date in footer
 document.getElementById("lastModified").textContent = document.lastModified;
 
+// Adding main reference for
+
+const main = document.querySelector('main');
+
 // Creating Temple Cards
 
-const temples = [...];
+const temples = filteredTemples;
 
-createTempleCard();
+createTempleCard(temples);
 
-function createTempleCard(filteredTemples) {
-filteredTemples.forEach(temple => {
+function createTempleCard(filteredtemples) {
+  filteredtemples.forEach(temple => {
     let card = document.createElement("section");
     let name = document.createElement("h2");
     let location = document.createElement("p");
@@ -103,23 +107,23 @@ filteredTemples.forEach(temple => {
     let area = document.createElement("p");
     let img = document.createElement("img");
 
-
-
     name.textContent = temple.templeName;
-    location.innerHTML = `<strong>location:</strong> ${temple.location}`;
-    dedication.innerHTML = `<strong>Dedicated:</strong> ${temple.dedicated}`;
+    location.innerHTML = `<strong>Location:</strong> ${temple.location}`;
+    dedicated.innerHTML = `<strong>Dedicated:</strong> ${temple.dedicated}`;
     area.innerHTML = `<strong>Area:</strong> ${temple.area} sq ft`;
     img.setAttribute("src", temple.imageUrl);
     img.setAttribute("alt", `Image of ${temple.templeName} Temple`);
     img.setAttribute("loading", "lazy");
-
-
 
     card.appendChild(name);
     card.appendChild(location);
     card.appendChild(dedicated);
     card.appendChild(area);
     card.appendChild(img);
+
+    main.appendChild(card);
+  });
+}
 
 
 // Hamburger menu functionality
