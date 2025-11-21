@@ -98,8 +98,8 @@ const temples = filteredTemples;
 
 createTempleCard(temples);
 
-function createTempleCard(filteredtemples) {
-  filteredtemples.forEach(temple => {
+function createTempleCard(filteredTemples) {
+  filteredTemples.forEach(temple => {
     let card = document.createElement("section");
     let name = document.createElement("h2");
     let location = document.createElement("p");
