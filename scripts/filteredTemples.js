@@ -2,7 +2,7 @@
 // Author: Michael Smith Saavedra Forero
 
 
-const filteredTemples = [
+const temples = [
     {
         templeName: "Aba Nigeria",
         location: "Aba, Nigeria", 
@@ -88,39 +88,42 @@ document.getElementById("currentyear").textContent = new Date().getFullYear();
 // Set last modified date in footer
 document.getElementById("lastModified").textContent = document.lastModified;
 
-// Creating Temple Cards
 
-const temples = [...];
+// Temple cards rendering
+const main = document.querySelector('main');
+temples.forEach(temple => {
+  const card = document.createElement('section');
+  card.className = 'temple-card';
 
-createTempleCard();
+  // Temple image
+  const img = document.createElement('img');
+  img.src = temple.imageUrl;
+  img.alt = temple.templeName;
+  img.loading = 'lazy';
+  card.appendChild(img);
 
-function createTempleCard(filteredTemples) {
-filteredTemples.forEach(temple => {
-    let card = document.createElement("section");
-    let name = document.createElement("h2");
-    let location = document.createElement("p");
-    let dedicated = document.createElement("p");
-    let area = document.createElement("p");
-    let img = document.createElement("img");
+  // Temple name
+  const name = document.createElement('h2');
+  name.textContent = temple.templeName;
+  card.appendChild(name);
 
+  // Temple location
+  const location = document.createElement('p');
+  location.innerHTML = `<strong>Location:</strong> ${temple.location}`;
+  card.appendChild(location);
 
+  // Temple dedicated date
+  const dedicated = document.createElement('p');
+  dedicated.innerHTML = `<strong>Dedicated:</strong> ${temple.dedicated}`;
+  card.appendChild(dedicated);
 
-    name.textContent = temple.templeName;
-    location.innerHTML = `<strong>location:</strong> ${temple.location}`;
-    dedication.innerHTML = `<strong>Dedicated:</strong> ${temple.dedicated}`;
-    area.innerHTML = `<strong>Area:</strong> ${temple.area} sq ft`;
-    img.setAttribute("src", temple.imageUrl);
-    img.setAttribute("alt", `Image of ${temple.templeName} Temple`);
-    img.setAttribute("loading", "lazy");
+  // Temple area
+  const area = document.createElement('p');
+  area.innerHTML = `<strong>Area:</strong> ${temple.area.toLocaleString()} sq ft`;
+  card.appendChild(area);
 
-
-
-    card.appendChild(name);
-    card.appendChild(location);
-    card.appendChild(dedicated);
-    card.appendChild(area);
-    card.appendChild(img);
-
+  main.appendChild(card);
+});
 
 // Hamburger menu functionality
 const hamburger = document.getElementById("hamburger");
