@@ -100,7 +100,7 @@ createTempleCard(temples);
 
 // Adding main reference for appending cards
 
-const main = document.querySelector('main');
+const main = document.querySelector("main");
 
 
 function createTempleCard(filteredTemples) {
