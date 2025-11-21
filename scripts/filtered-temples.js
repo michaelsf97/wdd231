@@ -88,15 +88,19 @@ document.getElementById("currentyear").textContent = new Date().getFullYear();
 // Set last modified date in footer
 document.getElementById("lastModified").textContent = document.lastModified;
 
-// Adding main reference for
 
-const main = document.querySelector('main');
+
+
 
 // Creating Temple Cards
 
 const temples = filteredTemples;
 
 createTempleCard(temples);
+
+// Adding main reference for appending cards
+
+const main = document.querySelector('main');
 
 function createTempleCard(filteredTemples) {
   filteredTemples.forEach(temple => {
