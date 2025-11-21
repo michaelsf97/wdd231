@@ -98,8 +98,9 @@ const temples = filteredTemples;
 
 createTempleCard(temples);
 
+// Adding main reference for appending cards
 
-
+const main = document.querySelector('main');
 
 
 function createTempleCard(filteredTemples) {
@@ -112,9 +113,9 @@ function createTempleCard(filteredTemples) {
     let img = document.createElement("img");
 
 
-    // Adding main reference for appending cards
+    
 
-    const main = document.querySelector('main');
+    
 
     name.textContent = temple.templeName;
     location.innerHTML = `<strong>Location:</strong> ${temple.location}`;
