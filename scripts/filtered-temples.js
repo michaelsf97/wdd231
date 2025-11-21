@@ -89,9 +89,63 @@ document.getElementById("lastModified").textContent = document.lastModified;
 
 const temples = filteredTemples;
 
+
 const main = document.querySelector("main");
 
+// Utility to clear main content
+function clearMain {
+  while (main.firstChild) {
+    main.removeChild(main.firstChild);
+  }
+}
+
+// Filtering Logic
+function filterTemples(type) {
+  let filtered = temples;
+  if (type === "old") {
+    filtered = temples.filter(t => {
+      
+      // Extract year from dedicated string
+      const year = parseInt(t.dedicated.match(/\d{4}/));
+      return year < 1900;
+    });
+
+  } else if (type === "new") {
+    filtered = temples.filter(t => {
+      const year = parseInt(t.dedicated.match(/\d{4}/));
+      return year > 2000;
+    });
+  } else if (type === "large") {
+    filtered = temples.filter(t => t.area > 90000);
+  } else if (type === "small") {
+    filtered = temples.filter(t => t.area < 10000);
+  }
+  clearMain();
+  createTempleCard(filtered);
+}
+
+// Initial Display
 createTempleCard(temples);
+
+// Navigation event listeners
+
+document.addEventlistener("DOMContentLoaded"), () => {
+
+  const navLinks = document.querySelectorAll('#nav-menu-a')
+
+  navLinks.forEach(link => {
+    link.addEventlistener('click', function(e) {
+      e.preventdefault();
+      const text = this.textContent.trim().toLowerCase();
+      if (text === "home") {
+        clearMain();
+        createTempleCard(temples);
+      } else if (["old", "new", "large", "small"].includes(text)) {
+        filterTemples(text);
+      }
+    });
+  });
+};
 
 // Adding main reference for appending cards
 
