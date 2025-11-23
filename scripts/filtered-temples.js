@@ -97,7 +97,7 @@ function clearMain() {
   while (main.firstChild) {
     main.removeChild(main.firstChild);
   }
-}
+}l
 
 // Filtering Logic
 function filterTemples(type) {
@@ -129,13 +129,13 @@ createTempleCard(temples);
 
 // Navigation event listeners
 
-document.addEventlistener("DOMContentLoaded"), () => {
+document.addEventListener("DOMContentLoaded"), () => {
 
   const navLinks = document.querySelectorAll('#nav-menu-a')
 
   navLinks.forEach(link => {
-    link.addEventlistener('click', function(e) {
-      e.preventdefault();
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
       const text = this.textContent.trim().toLowerCase();
       if (text === "home") {
         clearMain();
