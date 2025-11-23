@@ -97,7 +97,7 @@ function clearMain() {
   while (main.firstChild) {
     main.removeChild(main.firstChild);
   }
-}l
+}
 
 // Filtering Logic
 function filterTemples(type) {
@@ -131,7 +131,7 @@ createTempleCard(temples);
 
 document.addEventListener("DOMContentLoaded"), () => {
 
-  const navLinks = document.querySelectorAll('#nav-menu-a')
+  const navLinks = document.querySelectorAll('.nav-link')
 
   navLinks.forEach(link => {
     link.addEventListener('click', function(e) {
