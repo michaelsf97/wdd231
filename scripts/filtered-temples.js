@@ -129,9 +129,9 @@ createTempleCard(temples);
 
 // Navigation event listeners
 
-document.addEventListener("DOMContentLoaded"), () => {
+document.addEventListener("DOMContentLoaded", () => {
 
-  const navLinks = document.querySelectorAll('.nav-link')
+  const navLinks = document.querySelectorAll('.nav-link');
 
   navLinks.forEach(link => {
     link.addEventListener('click', function(e) {
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded"), () => {
       }
     });
   });
-};
+});
 
 // Adding main reference for appending cards
 
