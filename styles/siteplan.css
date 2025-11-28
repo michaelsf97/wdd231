@@ -60,7 +60,22 @@ form {
     background-color: var(--box-bg-light);
     border: var(--border-radius);
     box-shadow: var(--box-shadow);
+    box-sizing: border-box;
 
+
+}
+
+.form-box {
+    border-color: var(--border-color);
+    background-color: var(--accent-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-medium);
+    box-shadow: var(--box-shadow);
+    transition: transform 0.3s ease;
+}
+
+.form-box:hover {
+    transform: translateY(-10px); /* Moves the form box up by 10px on hover */
 }
 
 .bubblegum-sans-regular {
