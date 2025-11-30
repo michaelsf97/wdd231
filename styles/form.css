@@ -1,0 +1,11 @@
+label {
+    display: block;
+    font-weight: 700;
+}
+
+input[type="radio"] {
+
+    margin: 1rem;
+    padding: 0.5rem;
+}
+

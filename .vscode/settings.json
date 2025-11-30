@@ -2,5 +2,8 @@
     "files.exclude": {
     },
     "liveServer.settings.root": "/",
-    "fiveServer.autoStart": false
+    "fiveServer.autoStart": false,
+    "cSpell.words": [
+        "rangevalue"
+    ]
 }
