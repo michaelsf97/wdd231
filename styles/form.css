@@ -19,8 +19,9 @@ input[type="radio"] {
 
 .stars {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: left;
+
 }
 
 .stars > label {
