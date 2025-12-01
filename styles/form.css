@@ -92,8 +92,8 @@ main, label {
 
 .stars > label {
     font-size: 1.5rem;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
 
 }
 
@@ -109,4 +109,12 @@ footer {
     margin: 0;
     padding: 1rem;
     color: #fff;
+}
+
+@media (max-width: 600px) {
+  .stars > label {
+    width: 24px;
+    height: 24px;
+    font-size: 1.5rem;
+  }
 }
