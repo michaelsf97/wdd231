@@ -19,15 +19,24 @@ input[type="radio"] {
 
 }
 
+
 .stars > label {
-    color: gold;
-    width: 30px;
-    height: 30px;
-    font-size: 2rem;
-    margin-left: 5px;
-    display: flex;
-    align-items: center;
-    caret-color: rgba(0, 0, 0, 0); /* remove text cursor */
+        color: gold;
+        width: 30px;
+        height: 30px;
+        font-size: 2rem;
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        caret-color: rgba(0, 0, 0, 0); /* remove text cursor */
+}
+
+@media (max-width: 600px) {
+    .stars > label {
+        width: 24px;
+        height: 24px;
+        font-size: 1.5rem;
+    }
 }
 
 .stars > label:hover{
