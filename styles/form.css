@@ -76,6 +76,7 @@ header, h1 {
 main, label {
     margin: 0 auto;
     padding: 3rem;
-    background-color: 
+    background-color: #D8CDD8;
+    max-width: 600px;
 
 }
