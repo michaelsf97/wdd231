@@ -3,33 +3,47 @@
 document.getElementById("currentyear").textContent = new Date().getFullYear();
 
 
+
 const products = [
     {
         id: "fc-1888",
-        name: "flux capacitor",
+        name: "Flux Capacitor",
         averageRating: 4.5,
     },
     {
         id: "fc-2050",
-        name: "power laces",
+        name: "Power Laces",
         averageRating: 4.7,
     },
     {
         id: "fs-1987",
-        name: "time-circuits",
+        name: "Time Circuit",
         averageRating: 3.5,
     },
     {
         id: "ac-2000",
-        name: "low voltage reactor",
+        name: "Low Voltage Reactor",
         averageRating: 3.9,
     },
     {
         id: "jj-1969",
-        name: "warp equalizer",
+        name: "Warp Equalizer",
         averageRating: 5.0,
     }
-]
+];
+
+// Dynamically populate the product select options
+document.addEventListener('DOMContentLoaded', function() {
+    const select = document.getElementById('product_name');
+    if (select) {
+        products.forEach(product => {
+            const option = document.createElement('option');
+            option.value = product.id;
+            option.textContent = product.name;
+            select.appendChild(option);
+        });
+    }
+});
 
 
 const rangevalue= 
