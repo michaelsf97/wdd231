@@ -64,7 +64,7 @@ input[type="radio"] {
 /*header*/
 header, h1 {
 
-    background-color: #210442a5;
+    background-color: #31085ff9;
     text-align: center;
     margin: 0;
     padding: 1rem;
@@ -76,5 +76,6 @@ header, h1 {
 main, label {
     margin: 0 auto;
     padding: 3rem;
+    background-color: 
 
 }
