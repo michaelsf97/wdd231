@@ -3,18 +3,13 @@ label {
     font-weight: 700;
 }
 
-input[type="radio"] {
-
-    margin: 1rem;
-    padding: 0.5rem;
-}
-
 /* stars */ 
 input[type="radio"] {
+        margin: 1rem;
+    padding: 0.5rem;
     display: none;
     position: relative;
     caret-color: rgba(0, 0, 0, 0);
-
 }
 
 .stars {
@@ -30,7 +25,7 @@ input[type="radio"] {
     height: 30px;
     font-size: 2rem;
     margin-left: 5px;
-    display:flex;
+    display: flex;
     align-items: center;
     caret-color: rgba(0, 0, 0, 0); /* remove text cursor */
 }
