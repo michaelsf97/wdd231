@@ -69,14 +69,16 @@ header, h1 {
     margin: 0;
     padding: 1rem;
     color: #fff;
+    margin-bottom: 2rem; /* This add space between the header and main at the bottom */
 
 }
 
 
 main, label {
-    margin: 0 auto;
+    margin-top: 2rem; /* Adds space between header and main, at top of the main */
     padding: 3rem;
     background-color: #D8CDD8;
     max-width: 100%;
+
 
 }
