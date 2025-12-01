@@ -106,3 +106,12 @@ h1 {
     font-size: 1.5rem;
 }
 
+
+
+footer {
+    background-color: #3A004D;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    color: #fff;
+}
