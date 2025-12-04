@@ -3,7 +3,7 @@
 //* Trycicle WorldWide Ride-Sharing Service
 
 // Set current year in footer
-document.getElementById("currentyear").textcontent = new Date().getFullYear();
+document.getElementById("currentyear").textContent = new Date().getFullYear();
 
 // Set last modified date in footer
 

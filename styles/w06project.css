@@ -10,3 +10,12 @@
     padding: var(--padding);
     
 }
+
+header {
+    background-color: var(--header-background);
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    padding: 15px;
+    margin: 20px;
+}
