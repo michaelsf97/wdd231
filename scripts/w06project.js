@@ -11,3 +11,15 @@ const lastModified = document.getElementById("lastModified");
 if (lastModified) {
     lastModified.textContent = document.lastModified;
 }
+
+
+function updateLiveHour() {
+    const liveHourElement = document.getElementById("liveHour");
+    if (liveHour) {
+        const now = new Date();
+        liveHour.textContent = now.toLocateTimeString();
+    }
+}
+
+setInterval(updateLiveHour, 1000); // Update every second
+updateLiveHour(); // Initial call to set immediately
