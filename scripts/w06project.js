@@ -6,4 +6,8 @@
 document.getElementById("currentyear").textcontent = new Date().getFullYear();
 
 // Set last modified date in footer
-document.getElementById("lastModified").textcontent = document.lastModified;
+
+const lastModified = document.getElementById("lastModified");
+if (lastModified) {
+    lastModified.textContent = document.lastModified;
+}
