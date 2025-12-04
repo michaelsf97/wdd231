@@ -1,0 +1,12 @@
+.root {
+    --header-background: #008000;
+    --heading-color: hsl(0, 0%, 0%);
+    --heading-font-family: 'Italic', sans-serif;
+    --padding : 15px;     
+}
+
+#navigation {
+    background-color: var(--header-background);
+    padding: var(--padding);
+    
+}
