@@ -3,7 +3,7 @@
 //* Trycicle WorldWide Ride-Sharing Service
 
 // Set current year in footer
-document.getElementById("currentyear").textContent = new Date().getFullYear();
+
 
 // Set last modified date in footer
 
@@ -15,9 +15,9 @@ if (lastModified) {
 
 function updateLiveHour() {
     const liveHourElement = document.getElementById("liveHour");
-    if (liveHour) {
+    if (liveHourElement) {
         const now = new Date();
-        liveHour.textContent = now.toLocateTimeString();
+        liveHourElement.textContent = now.toLocaleTimeString();
     }
 }
 
