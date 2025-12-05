@@ -30,6 +30,12 @@ header {
     
 }
 
+#navigation ul li a {
+    background-color: transparent;
+    color: rgba(0,0,0,0.7);
+    border-radius: #008000;
+}
+
 
 
 
