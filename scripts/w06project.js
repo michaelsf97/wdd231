@@ -2,7 +2,7 @@
 //* Author: Michael Smith Saavedra Forero
 //* Trycicle WorldWide Ride-Sharing Service
 
-// Set current year in footer
+
 
 
 // Set last modified date in footer
