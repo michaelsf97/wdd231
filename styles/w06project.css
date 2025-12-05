@@ -20,12 +20,14 @@ header {
     margin: 20px;
 }
 
-#navigation-ul {
+#navigation ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center; 
     gap: 20px;
     padding: 15px;
     
 }
+
+
 
