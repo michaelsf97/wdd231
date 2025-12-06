@@ -39,6 +39,11 @@ if (hamburger && navMenu) {
 }
 
 
+// Setting up lazy loading for images
+
+img.setAttribute("loading", "lazy");
+
+
 
 
 
