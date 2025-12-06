@@ -39,11 +39,11 @@ hamburger.addEventListener("click", () =>  {
 
     if (navMenu.classList.contains("active")) {
 
-        hamburger.textContent = " (X) ";
+        hamburger.textContent = "X";
     }
 
     else {
-        hamburger.textContent = " (☰) ";
+        hamburger.textContent = "☰";
     }
 });
 
