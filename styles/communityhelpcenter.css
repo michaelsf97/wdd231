@@ -1,5 +1,6 @@
-.hero img {
-    width: 100%;
-    height: auto;
+header {
+    position:relative;
     background: url("../images/trycicle_worldwide97.jpg");
+    min-height: 300px;
+    color: #ffff;
 }
