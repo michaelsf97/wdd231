@@ -29,7 +29,7 @@ updateLiveHour(); // Initial call to set immediately
 
 // Hamburger menu functionality{
 
-const hamburger = document.getElementById("hamburguer");
+const hamburger = document.getElementById("hamburger");
 
 const navMenu = document.getElementById("navigation");
 
@@ -39,7 +39,7 @@ hamburger.addEventListener("click", () =>  {
 
     if (navMenu.classList.contains("active")) {
 
-        hamburger.textContent = "X";
+        hamburger.textContent = "✖";
     }
 
     else {
