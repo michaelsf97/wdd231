@@ -6,10 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const commentList = document.getElementById('commentList');
 
     // Load comments from localStorage
+
     function loadComments() {
         commentList.innerHTML = '';
         const comments = JSON.parse(localStorage.getItem('communityComments') || '[]');
-        comments.forEach(comment => {
+        comments.forEach (comment => {
             const li = document.createElement('li');
             li.textContent = comment;
             commentList.appendChild(li);
@@ -17,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Handle form submission
+
     commentForm.addEventListener('submit', (e) => {
         e.preventDefault();
         const comment = commentInput.value.trim();
