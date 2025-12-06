@@ -1,6 +1,8 @@
-header {
-    position:relative;
+body {
+    position: relative;
     background: url("../images/trycicle_worldwide97.jpg");
-    min-height: 300px;
-    color: #ffff;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+
 }
