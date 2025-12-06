@@ -24,3 +24,28 @@ function updateLiveHour () {
 
 setInterval(updateLiveHour, 1000); // Update every second
 updateLiveHour(); // Initial call to set immediately
+
+
+
+// Hamburger menu functionality{
+
+const hamburger = document.getElementById("hamburguer");
+const navMenu = document.getElementById("navigation");
+
+hamburger.addEventListener("click"), () => {
+    navigation.classlist.toggle("active");
+
+    if (navMenu.classlist.contains("active")) {
+        hamburger.textContent = " (X) ";
+    }
+
+    else {
+        hamburger.textContent = " (☰) ";
+    }
+};
+
+
+
+
+
+

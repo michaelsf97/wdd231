@@ -40,6 +40,37 @@ header {
 
 @media (max-width: 600px) {
 
+    #hamburguer {
+        
+        display: block;
+
+    }
+
+    nav ul {
+        display: none;  /* It hides the navigation menu by default when the screen is small (mobile) */
+        flex-direction: column;
+        border: 1px solid #ffffff;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #008000;
+        width: 200px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+    }
+
+
+    nav ul li {
+        width: 100%;
+    }
+
+    nav a {
+        width: 100%;
+    }
+}
+
 
 
 
