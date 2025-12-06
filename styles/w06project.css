@@ -38,16 +38,21 @@ header {
 }
 
 
+
 @media (max-width: 600px) {
-
-    #hamburguer {
-        
+    #hamburger {
         display: block;
-
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 1000;
     }
-
-    nav ul {
-        display: none;  /* It hides the navigation menu by default when the screen is small (mobile) */
+    #navigation ul {
+        display: none;
         flex-direction: column;
         border: 1px solid #ffffff;
         position: absolute;
@@ -58,21 +63,20 @@ header {
         padding: 10px;
         border-radius: 5px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-
     }
-
-
-    nav ul li {
-        width: 100%;
-    }
-
-    nav a {
-        width: 100%;
-    }
-
     #navigation.active ul {
-        display:flex;
+        display: flex;
     }
+    #navigation ul li {
+        width: 100%;
+    }
+    #navigation a {
+        width: 100%;
+    }
+}
+
+#hamburger {
+    display: none;
 }
 
 
