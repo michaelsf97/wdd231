@@ -1,5 +1,6 @@
 //* w06project.js - Project for WDD131 Week 6.
 //* Author: Michael Smith Saavedra Forero
+
 //* Trycicle WorldWide Ride-Sharing Service
 
 
@@ -13,9 +14,9 @@ if (lastModified) {
 }
 
 
-function updateLiveHour() {
+function updateLiveHour () {
     const liveHourElement = document.getElementById("liveHour");
-    if (liveHourElement) {
+     if (liveHourElement) {
         const now = new Date();
         liveHourElement.textContent = now.toLocaleTimeString();
     }
