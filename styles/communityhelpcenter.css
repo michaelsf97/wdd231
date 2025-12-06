@@ -21,8 +21,9 @@ h1, h2, h3 {
 #commentList {
     border: 2px solid #000000;
     background-color: #000000;
+    opacity: 0.8;
     color: #ffffff;
     border-radius: 8px;
-    
+
 
 }
