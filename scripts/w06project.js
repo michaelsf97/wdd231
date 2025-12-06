@@ -32,10 +32,11 @@ updateLiveHour(); // Initial call to set immediately
 const hamburger = document.getElementById("hamburguer");
 const navMenu = document.getElementById("navigation");
 
-hamburger.addEventListener("click"), () => {
-    navigation.classlist.toggle("active");
+hamburger.addEventListener("click", () => ) {
 
-    if (navMenu.classlist.contains("active")) {
+    navMenu.classList.toggle("active");
+
+    if (navMenu.classList.contains("active")) {
         hamburger.textContent = " (X) ";
     }
 
