@@ -30,20 +30,22 @@ updateLiveHour(); // Initial call to set immediately
 // Hamburger menu functionality{
 
 const hamburger = document.getElementById("hamburguer");
+
 const navMenu = document.getElementById("navigation");
 
-hamburger.addEventListener("click", () => ) {
+hamburger.addEventListener("click", () =>  {
 
     navMenu.classList.toggle("active");
 
     if (navMenu.classList.contains("active")) {
+
         hamburger.textContent = " (X) ";
     }
 
     else {
         hamburger.textContent = " (☰) ";
     }
-};
+});
 
 
 
