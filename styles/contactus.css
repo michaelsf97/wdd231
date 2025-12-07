@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 15px;
+    box-sizing: border-box;
+
+}
+
+
+.root {
+    --header-background: #008000;
+    --heading-color: hsl(0, 15%, 0%);
+    --align-items: center;
+    --justify-content: center;
+    --border-radius: 7px;
+    
+}
