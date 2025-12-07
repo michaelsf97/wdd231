@@ -17,5 +17,12 @@
 
 body {
     background: url('../images/trycicle_worldwide.jpg');
-    
+
+}
+
+header, h1 , p {
+    padding: 10px;
+    margin: 15px;
+    background-color: #008000;
+
 }
