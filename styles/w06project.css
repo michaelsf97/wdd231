@@ -37,7 +37,7 @@ header {
     border-radius: #008000;
 }
 
-h3 {
+h3, p {
     padding: 10px;
     margin: 15px;
     background-color: rgba(7, 149, 237, 0.5);
