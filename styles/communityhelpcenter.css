@@ -37,3 +37,8 @@ header {
     padding: 10px;
     margin: 10px;
 }
+
+
+nav {
+    border-bottom: #005c80 solid 4px;;
+}
