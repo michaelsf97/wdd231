@@ -24,3 +24,7 @@ body {
     margin: 0;
     width: 100%;
 }
+
+nav {
+    border-bottom: #005c80 solid 4px;;
+}
