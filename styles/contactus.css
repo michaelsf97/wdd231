@@ -17,9 +17,10 @@
 }
 
 
-.figure-hero-image {
+body {
     background: url("../images/asia.webp");
-    padding: 20px;
-    margin: 15px;
-    max-width: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
