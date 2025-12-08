@@ -29,4 +29,6 @@ nav {
     border-bottom: #005c80 solid 4px;
     text-decoration: underline;
     background-color: #005c80;
+    color: #ffffff;
+    padding: 20px;
 }
