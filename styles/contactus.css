@@ -26,5 +26,7 @@ body {
 }
 
 nav {
-    border-bottom: #005c80 solid 4px;;
+    border-bottom: #005c80 solid 4px;
+    text-decoration: underline;
+    background-color: #005c80;
 }
