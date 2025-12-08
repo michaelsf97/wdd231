@@ -17,7 +17,7 @@
 }
 
 
-figure {
+.figure-hero-image {
     background: url("../images/asia.webp");
     padding: 20px;
     margin: 15px;
