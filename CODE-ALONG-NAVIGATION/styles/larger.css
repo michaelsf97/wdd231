@@ -5,7 +5,11 @@
     }
 
     header {
-        grid-template-columns: 24px auto;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 10px 16px;
+        background: #fff;
     }
 
     .hamburger {
