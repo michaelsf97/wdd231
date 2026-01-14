@@ -82,7 +82,8 @@ const courses = [
 
 function renderCourses(filter = "All") {
     const courseList = document.getElementById("course-list");
-    if (!courseList) return;
+    const courseCount = document.getElementById("course-count");
+    if (!courseList || !courseCount) return;
     courseList.innerHTML = "";
     let filteredCourses = courses;
     if (filter === "WDD") {
@@ -96,6 +97,7 @@ function renderCourses(filter = "All") {
         li.className = course.completed ? "course-completed" : "course-pending";
         courseList.appendChild(li);
     });
+    courseCount.textContent = `The total number of course listed below is ${filteredCourses.length}`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
