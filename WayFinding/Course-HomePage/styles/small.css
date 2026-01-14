@@ -164,3 +164,15 @@ h1, .divider {
     margin: 1em 0;
 }
     
+.about-photo-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+    align-items: center;
+}
+
+.about-me, .student-photo {
+    background: #f9f9f9;
+    padding: 1em;
+    border-radius: 8px;
+}
