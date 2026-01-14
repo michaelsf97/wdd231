@@ -171,8 +171,13 @@ h1, .divider {
     align-items: center;
 }
 
-.about-me, .student-photo {
+.about-me {
+    justify-content: left;
     background: #f9f9f9;
     padding: 1em;
     border-radius: 8px;
+}
+
+.student-photo {
+    justify-content: right;
 }
