@@ -134,3 +134,27 @@ header span {
     font-weight: bold;
     margin-right: auto;
 }
+
+/* Course List Styles */
+#course-list {
+    margin-top: 1em;
+    padding: 0;
+    list-style: none;
+}
+.course-completed {
+    background: #3D405B;
+    color: #fff;
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.course-pending {
+    background: #E07A5F;
+    color: #fff;
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    border-radius: 4px;
+    font-weight: normal;
+}
+}
