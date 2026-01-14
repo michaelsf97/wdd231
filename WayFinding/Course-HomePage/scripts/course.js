@@ -80,11 +80,17 @@ const courses = [
 
 // Data source for courses
 
-function renderCourses() {
+function renderCourses(filter = "All") {
     const courseList = document.getElementById("course-list");
     if (!courseList) return;
     courseList.innerHTML = "";
-    courses.forEach(course => {
+    let filteredCourses = courses;
+    if (filter === "WDD") {
+        filteredCourses = courses.filter(course => course.subject === "WDD");
+    } else if (filter === "CSE") {
+        filteredCourses = courses.filter(course => course.subject === "CSE");
+    }
+    filteredCourses.forEach(course => {
         const li = document.createElement("li");
         li.innerHTML = `<strong>${course.subject} ${course.number}:</strong> ${course.title} <span>(${course.credits} credits)</span>`;
         li.className = course.completed ? "course-completed" : "course-pending";
@@ -92,4 +98,9 @@ function renderCourses() {
     });
 }
 
-document.addEventListener("DOMContentLoaded", renderCourses);
+document.addEventListener("DOMContentLoaded", () => {
+    renderCourses();
+    document.getElementById("All Courses").addEventListener("click", () => renderCourses("All"));
+    document.getElementById("WDD Courses").addEventListener("click", () => renderCourses("WDD"));
+    document.getElementById("CSE Courses").addEventListener("click", () => renderCourses("CSE"));
+});
