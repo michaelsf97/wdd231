@@ -142,8 +142,8 @@ header span {
     list-style: none;
 }
 .course-completed {
-    background: #3D405B;
-    color: #fff;
+    background: #0077cc;
+    color: #0077cc;
     padding: 0.5em 1em;
     margin-bottom: 0.5em;
     border-radius: 4px;
@@ -156,5 +156,4 @@ header span {
     margin-bottom: 0.5em;
     border-radius: 4px;
     font-weight: normal;
-}
 }
