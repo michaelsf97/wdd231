@@ -31,3 +31,31 @@ img {
     object-fit: contain;
     height: 200px;
 }
+
+
+/* HAMBURGER NAVIGATION */
+
+
+.hamburger {
+    font-size: 3em;
+    color: #3D405B;
+    cursor: pointer;
+    font-family: Verdana;
+    display: inline-block;
+    z-index: 1100;
+    background: #fff;
+    border: 2px solid #3D405B;
+    border-radius: 2px;
+    position: relative;
+}
+
+.hamburger::before {
+    content: "\2630";
+    display: block;
+    text-align: center;
+    line-height: 2.8em;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
