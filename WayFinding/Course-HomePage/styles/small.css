@@ -1,0 +1,33 @@
+body, main, section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.overlay-text {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 0.5rem;
+    max-width: 90%;
+    word-wrap: break-word;
+    font-size: 1rem;
+}
+
+nav ul li a {
+    border-bottom: 2px solid transparent;
+    padding: 0.5em 1em;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #0077cc;
+    background: #f0f0f0;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    height: 200px;
+}
