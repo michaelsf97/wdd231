@@ -49,5 +49,10 @@
     .about-me, .student-photo {
         flex: 1;
     }
+
+    .footer {
+        text-align: center;
+        padding: 2em 0;
+    }
 }
     
