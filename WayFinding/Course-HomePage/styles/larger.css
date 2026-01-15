@@ -1,13 +1,53 @@
 @media only screen and (max-width: 640px) {
+    nav ul {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    header, main {
+        padding: 1em;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
 }
 
 @media only screen and (min-width: 760px) {
-        font-size: 0.9rem;
-        padding: 0.5em;
+    body { 
+        font-size: 1,1em;
+        padding: 2em;
     }
+    nav ul {
+        display: flex;
+        gap: 2em;
+        justify-content: center;
+    }
+    main {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}
 
 
 @media only screen and (min-width: 1024px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em 4em;
+    }
 
+    .about-photo-container {
+        display: flex;
+        gap: 2em;
+        align-items: flex-start;
+    }
+    
+    .about-me, .student-photo {
+        flex: 1;
+    }
 }
     
