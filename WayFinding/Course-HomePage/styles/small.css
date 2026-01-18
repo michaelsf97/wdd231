@@ -194,6 +194,12 @@ h1, .divider {
     padding: 1.5em;
     margin: 0 auto;
     
-
-
 }
+
+
+.header-logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
