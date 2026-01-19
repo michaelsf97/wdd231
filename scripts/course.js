@@ -93,11 +93,11 @@ function renderCourses(filter = "All") {
     }
     filteredCourses.forEach(course => {
         const li = document.createElement("li");
-        li.innerHTML = `<strong>${course.subject} ${course.number}</strong> ${course.title} <span>(${course.credits} credits))</span>`;
+        li.innerHTML = `<strong>${course.subject} ${course.number}</strong> ${course.title} <span>(${course.credits} credits)</span>`;
         li.className = course.completed ? "course-completed" : "course-pending";
         courseList.appendChild(li);
     });
-    courseCount.textContent = `The total number of couyrse listed below is ${filteredCourses.length}.`;
+    courseCount.textContent = `The total number of course listed below is ${filteredCourses.length}.`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
