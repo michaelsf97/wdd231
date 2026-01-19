@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Site Name">
-    <meta property="og:description" content="Facebook website where people can enjoy my own personal site">
+    <meta name="description" content="Michael Saavedra's web development portfolio featuring BYU certificate courses, chamber and final projects. Bilingual student passionate about web programming.">
+    <meta name="author" content="Michael Smith Saavedra Forero">
+    <meta property="og:title" content="Michael Saavedra - Web Development Portfolio">
+    <meta property="og:description" content="BYU Web Development student portfolio showcasing certificate courses and projects">
     <meta property="og:url" content="https://michaelsf97.github.io/wdd231/WayFinding/Course-HomePage/index.html">
     <meta property="og:image" content="https://michaelsf97.github.io/wdd231/WayFinding/Course-HomePage/images/michaelsaavedra.png">
-    <title>Site Name</title>
+    <title>Michael Saavedra - Web Development Portfolio</title>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/course.js" defer></script>
     <script src="scripts/date.js" defer></script>
@@ -28,20 +30,17 @@
 <body>
 <header>
     <div class="header-logo-section">
-        <img src="images/house97.jpg" alt="site-logo" width="100" height="100">
-        <span style="font-size: 1.5em; font-weight: bold;">Site Name</span>
+        <img src="images/house97.jpg" alt="Michael Saavedra's portfolio logo" width="100" height="100">
+        <span style="font-size: 1.5em; font-weight: bold;">Michael Saavedra Portfolio</span>
     </div>
-    <button id="ham-btn" class="hamburger"></button>
+    <button id="ham-btn" class="hamburger" aria-label="Toggle navigation menu"></button>
 </header>
-<nav id="nav-bar" class="navigation">
+<nav id="nav-bar" class="navigation" aria-label="Main navigation">
     <ul>
         <li class="current"> <a href="#"> Home </a></li>
         <li> <a href="#"> Chamber Project </a></li>
         <li> <a href="#"> Final Project </a></li>
     </ul>
-
-</nav> 
-
 </nav>
 <main>
     <h1> Home </h1>
@@ -62,15 +61,15 @@
 
         <div class="student-photo">
             <h2>Student Photo</h2>
-            <img src="images/michaelsaavedra.png" alt="student-photo" width="150" height="150">
+            <img src="images/michaelsaavedra.png" alt="Portrait of Michael Saavedra, BYU web development student" width="150" height="150">
         </div>
     </section>
 
     <section>
         <h2> Web Certificates Courses </h2>
-        <button id="All Courses"> All Courses </button>
-        <button id="WDD Courses"> WDD Courses </button>
-        <button id="CSE Courses"> CSE Courses </button>
+        <button id="all-courses" aria-label="Show all courses"> All Courses </button>
+        <button id="wdd-courses" aria-label="Show WDD courses"> WDD Courses </button>
+        <button id="cse-courses" aria-label="Show CSE courses"> CSE Courses </button>
         <p id="course-count"> The total number of course listed below is 6</p>
         <ul id="course-list"></ul>
     </section>
@@ -78,10 +77,10 @@
 </main>
 
 <footer>
-    <a href="https://web.facebook.com/?_rdc=1&_rdr#" target="_blank"> <i class="fab fa-facebook"></i> Facebook</a>
-    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-    <a href="https://github.com/dashboard" target="_blank"> <i class="fab fa-github"></i> GitHub</a>
-    <a href="https://www.linkedin.com/in/michael-saavedra-903193390/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a href="https://web.facebook.com/?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer" aria-label="Visit Michael's Facebook profile"> <i class="fab fa-facebook" aria-hidden="true"></i> Facebook</a>
+    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Michael's Instagram profile"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a>
+    <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer" aria-label="Visit Michael's GitHub profile"> <i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/michael-saavedra-903193390/" target="_blank" rel="noopener noreferrer" aria-label="Visit Michael's LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
     <hr>
 
 
@@ -93,5 +92,6 @@
     <div id="day"></div>
     <div id="weekday"></div>
     
-    </footer>
+</footer>
+</body>
 </html>
