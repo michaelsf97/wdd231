@@ -92,7 +92,12 @@ img {
 }
 
 .navigation li.current {
-    background-color: #eee;
+    background-color: transparent;
+}
+
+.navigation li.current a {
+    font-weight: bold;
+    background-color: #e6f2ff;
 }
 
 .navigation a:hover{

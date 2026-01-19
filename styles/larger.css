@@ -20,11 +20,48 @@
         font-size: 1,1em;
         padding: 2em;
     }
+    
+    /* Hide hamburger button on larger screens */
+    .hamburger {
+        display: none;
+    }
+    
+    /* Show navigation as horizontal menu */
+    .navigation {
+        display: block;
+        position: static;
+        width: auto;
+        background: transparent;
+        box-shadow: none;
+        margin-top: 0;
+    }
+    
     nav ul {
         display: flex;
         gap: 2em;
         justify-content: center;
+        flex-direction: row;
     }
+    
+    .navigation li {
+        padding: 0;
+        border-bottom: none;
+    }
+    
+    /* Wayfinder - highlight current page */
+    .navigation li.current a {
+        background-color: #005a9c;
+        color: #ffffff;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+    
+    .navigation a {
+        border-bottom: none;
+        padding: 0.8rem 1.2rem;
+        border-radius: 4px;
+    }
+    
     main {
         max-width: 900px;
         margin: 0 auto;
