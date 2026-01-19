@@ -1,0 +1,49 @@
+{
+    "family_name": "Saavedra",
+    "date_family_moved_in": "2024-06-24",
+    "number_of_members_in": 7,
+    "visited_by_bishopric": true,
+    "individual_family_member_data": [
+        {
+        "name": "Michael Smith Saavedra Forero.",
+        "gender": "Male",
+        "birthdate": "1997-08-04"
+        },
+
+        {
+            "name": "Graciela Forero Micán.",
+            "gender": "Female",
+            "birthdate": "1964-05-24"
+        },
+
+        {
+            "name": "Juan Camilo Rodriguez Saavedra.",
+            "gender": "Male",
+            "birthdate": "2013-05-11"
+        },
+
+        {
+            "name": "Luis Miller Saavedra Forero.",
+            "gender": "Male",
+            "birthdate": "1957-01-30"
+        },
+
+        {
+            "name": "Marly Yadira Saavedra Forero.",
+            "gender": "Female",
+            "birthdate": "1982-10-03"
+        },
+
+        {
+            "name": "Bryan Daney Lemus Saavedra.",
+            "gender": "Male",
+            "birthdate": "2001-01-09"
+        },
+
+        {
+            "name": "Miller Ivan Saavedra Forero.",
+            "gender": "Male",
+            "birthdate": "1987-08-05"
+        }
+    ]
+}      
