@@ -97,7 +97,10 @@ function renderCourses(filter = "All") {
         li.className = course.completed ? "course-completed" : "course-pending";
         courseList.appendChild(li);
     });
-    courseCount.textContent = `The total number of courses listed below is ${filteredCourses.length}.`;
+    
+    // Update total credits on webpage
+    const totalCredits = filteredCourses.reduce((sum, course) => sum + course.credits, 0);
+    courseCount.textContent = `Total Credits: ${totalCredits}`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
