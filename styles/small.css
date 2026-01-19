@@ -38,13 +38,13 @@ img {
 
 .hamburger {
     font-size: 3em;
-    color: #3D405B;
+    color: #1a1c2e;
     cursor: pointer;
     font-family: Verdana;
     display: inline-block;
     z-index: 1100;
     background: #fff;
-    border: 2px solid #3D405B;
+    border: 2px solid #1a1c2e;
     border-radius: 2px;
     position: relative;
 }
@@ -96,13 +96,14 @@ img {
 }
 
 .navigation a:hover{
-    background-color: #0077cc;
+    background-color: #0066b3;
+    color: #ffffff;
 }
 
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: #3D405B;
+    color: #1a1c2e;
     text-decoration: none;
     border-bottom: solid 1px #ddd;
 }
@@ -130,7 +131,7 @@ header img {
 
 header span {
     font-size: 1.5rem;
-    color: #3D405B;
+    color: #1a1c2e;
     font-weight: bold;
     margin-right: auto;
 }
@@ -142,7 +143,7 @@ header span {
     list-style: none;
 }
 .course-completed {
-    background: #0077cc;
+    background: #005a9c;
     color: #fff;
     padding: 0.5em 1em;
     margin-bottom: 0.5em;
@@ -150,7 +151,7 @@ header span {
     font-weight: bold;
 }
 .course-pending {
-    background: #E07A5F;
+    background: #c75944;
     color: #fff;
     padding: 0.5em 1em;
     margin-bottom: 0.5em;
