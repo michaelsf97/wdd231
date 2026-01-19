@@ -97,12 +97,12 @@ function renderCourses(filter = "All") {
         li.className = course.completed ? "course-completed" : "course-pending";
         courseList.appendChild(li);
     });
-    courseCount.textContent = `The total number of course listed below is ${filteredCourses.length}.`;
+    courseCount.textContent = `The total number of courses listed below is ${filteredCourses.length}.`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
     renderCourses();
-    document.getElementById("All Courses").addEventListener("click", () => renderCourses("All"));
-    document.getElementById("WDD Courses").addEventListener("click", () => renderCourses("WDD"));
-    document.getElementById("CSE Courses").addEventListener("click", () => renderCourses("CSE"));
+    document.getElementById("all-courses").addEventListener("click", () => renderCourses("All"));
+    document.getElementById("wdd-courses").addEventListener("click", () => renderCourses("WDD"));
+    document.getElementById("cse-courses").addEventListener("click", () => renderCourses("CSE"));
 });
