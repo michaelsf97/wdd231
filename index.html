@@ -3,14 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231 - Michael Saavedra</title>
-        <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Site Name">
+    <meta property="og:description" content="Facebook website where people can enjoy my own personal site">
+    <meta property="og:url" content="https://michaelsf97.github.io/wdd231/WayFinding/Course-HomePage/index.html">
+    <meta property="og:image" content="https://michaelsf97.github.io/wdd231/WayFinding/Course-HomePage/images/michaelsaavedra.png">
+    <title>Site Name</title>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <link rel="icon" href="images/favicon.ico">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bubblegum+Sans&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/larger.css">
+
+
+
 </head>
 <body>
-    <h1>WDD 231 - Web Frontend Development</h1>
-    <h2>Michael Smith Saavedra Forero</h2>
+<header>
+    <div class="header-logo-section">
+        <img src="images/house97.jpg" alt="site-logo" width="100" height="100">
+        <span style="font-size: 1.5em; font-weight: bold;">Site Name</span>
+    </div>
+    <button id="ham-btn" class="hamburger"></button>
+</header>
+<nav id="nav-bar" class="navigation">
     <ul>
-        <li><a href="WayFinding/Course-HomePage/index.html">Course Home Page</a></li>
+        <li class="current"> <a href="#"> Home </a></li>
+        <li> <a href="#"> Chamber Project </a></li>
+        <li> <a href="#"> Final Project </a></li>
     </ul>
-</body>
+
+</nav> 
+
+</nav>
+<main>
+    <h1> Home </h1>
+    <hr>
+    <section class="about-photo-container">
+        <div class="about-me">
+        <h2> About me</h2>
+        <p> Brigham Young University Student, i am preparing to grow into
+            a new career in web development. I am really excited to learn
+            more and to acquire skills to do so. I am able to speak in spanish,
+            and english too. I was borned in Colombia and i have lived here all my life.
+            I love to learn new things and to meet new people.
+            On the other sides, i love to travel and to know new cultures.
+            Web and Computer Programming are my passion nowadays.
+            I prayed to the Lord to achieve this and more goals which i have on mind.
+        </p>
+        </div>
+
+        <div class="student-photo">
+            <h2>Student Photo</h2>
+            <img src="images/michaelsaavedra.png" alt="student-photo" width="150" height="150">
+        </div>
+    </section>
+
+    <section>
+        <h2> Web Certificates Courses </h2>
+        <button id="All Courses"> All Courses </button>
+        <button id="WDD Courses"> WDD Courses </button>
+        <button id="CSE Courses"> CSE Courses </button>
+        <p id="course-count"> The total number of course listed below is 6</p>
+        <ul id="course-list"></ul>
+    </section>
+    <hr>
+</main>
+
+<footer>
+    <a href="https://web.facebook.com/?_rdc=1&_rdr#" target="_blank"> <i class="fab fa-facebook"></i> Facebook</a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="https://github.com/dashboard" target="_blank"> <i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/michael-saavedra-903193390/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <hr>
+
+
+    <span>© Michael Smith Saavedra Forero 2026 - Colombia - Bogota D.C</span>
+    <hr>
+    <p id="lastModified"></p>
+    <div id="currentyear"></div>
+    <div id="currentmonth"></div>
+    <div id="day"></div>
+    <div id="weekday"></div>
+    
+    </footer>
 </html>
