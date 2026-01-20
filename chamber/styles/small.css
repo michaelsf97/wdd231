@@ -10,5 +10,26 @@
 .hero {
     min-height: 400px;
     height: 60vh;
-    background-image: url('images/)
+    background-image: url('../images/fabric.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Flexbox for positioning */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-content {
+    text-align: center;
+    color: #ffff;
+    z-index: 1;
+}
+
+.cta-button {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
 }
