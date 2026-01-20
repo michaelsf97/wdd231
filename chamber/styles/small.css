@@ -43,5 +43,6 @@ nav ul li a {
 
 header {
     display: flex;
-    align-items: right;
+    align-items: center;
+    justify-content: space-between;
 }
