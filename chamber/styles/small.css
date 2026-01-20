@@ -43,5 +43,5 @@ nav ul li a {
 
 header {
     display: flex;
-    align-items: center;
+    align-items: right;
 }
