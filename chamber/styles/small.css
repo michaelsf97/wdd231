@@ -37,5 +37,11 @@
 /* NAVIGATION LINKS */
 
 nav ul li a {
-    display: block
+    display: block;
+    justify-content: right;
+}
+
+header {
+    display: flex;
+    align-items: center;
 }
