@@ -33,3 +33,9 @@
     bottom: 2rem;
     right: 2rem;
 }
+
+/* NAVIGATION LINKS */
+
+nav ul li a {
+    display: block
+}
