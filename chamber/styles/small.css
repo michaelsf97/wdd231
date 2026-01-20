@@ -5,3 +5,10 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+.hero {
+    min-height: 400px;
+    height: 60vh;
+    background-image: url('images/)
+}
