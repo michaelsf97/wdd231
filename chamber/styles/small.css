@@ -57,22 +57,43 @@ header {
     justify-content: space-between;
 }
 
+/* MAIN CONTENT GRID */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    grid-template-areas:
+        "title title"
+        "divider divider"
+        "events weather";
+}
+
+main h2 {
+    grid-area: title;
+}
+
+main hr:first-of-type {
+    grid-area: divider;
+}
+
+.Events {
+    grid-area: events;
+}
+
 /* WEATHER WIDGET */
 .current-weather {
-    margin: 2rem 0;
+    grid-area: weather;
+    margin: 0;
 }
 
 .current-weather h3 {
-    max-width: 400px;
-    margin: 0 0 1rem auto;
+    margin-bottom: 1rem;
 }
 
 .weather-card {
     background-color: #d3d3d3;
     border-radius: 8px;
     padding: 1.5rem;
-    max-width: 400px;
-    margin: 1rem 0 1rem auto;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
