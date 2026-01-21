@@ -163,3 +163,37 @@ main hr:first-of-type {
 .hamburger.show::before {
     content: "\00D7";
 }
+
+/* WHEATER FORECAST SECTION */
+
+.weather-forecast {
+    grid-area: forecast;
+    margin: 0;
+}
+
+.weather-forecast h3 {
+    margin-bottom: 1rem;
+}
+
+.forecast-card {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-icon {
+    color: #f5a623;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.forecast-info {
+    text-align: center;
+}
+
+.forecast-date {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
