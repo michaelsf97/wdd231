@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .hero {
         min-height: 300px;
         height: 50vh;
@@ -17,7 +17,7 @@
         display: none;
     }
 
-    .navigation {
+    .navigation ul {
         flex-direction: row;
     }
 }
