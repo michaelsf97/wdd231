@@ -1,8 +1,33 @@
-fetch('members.json')
-.then(response => response.json())
-.then(data => {
-    console.log(data);
-});
+// Fetch and display members
+async function displayMembers() {
+    try {
+        const response = await fetch('data/members.json');
+        const data= await response.json();
+        
+        // Create member card
+        const memberCard = `
+            <div class="member-card">
+                <img src="${data.image}" alt="${data.company_name}">
+                <h3>${data.company_name}</h3>
+                <p><strong>Address:</strong> ${data.company_address}</p>
+                <p><strong>Phone:</strong> ${data.company_phone_number}</p>
+                <p><a href="${data.company_website_url}" target="_blank">Visit website </a></p>
+            </div>
+        `;
+        
+        // Add to page container directly from HTML
+        const container = document.querySelector('#members-container');
+        if (container) {
+            container.innerHTML = memberCard;
+        }
+        
+    } catch (error) {
+        console.error('Error loading member data:', error);
+    }
+}
+
+// Call the function when page loads
+displayMembers();
 
 /* HAMBURGER BUTTON */
 const navButton = document.querySelector('#hamb-btn');
