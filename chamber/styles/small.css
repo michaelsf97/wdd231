@@ -36,6 +36,14 @@
 
 /* NAVIGATION LINKS */
 
+nav {
+    display: none;
+}
+
+.navigation.show {
+    display:block;
+}
+
 nav ul {
     display: flex;  
     list-style: none;
