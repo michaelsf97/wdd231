@@ -130,3 +130,28 @@ main hr:first-of-type {
     color: #333;
     font-size: 0.95rem;
 }
+
+
+.hamburger {
+    font-size: 3em;
+    color: #f5a623;
+    cursor: pointer;
+    font-family: Verdana;
+    z-index: 1100;
+    display: inline-block;
+    background: #fff;
+    border: 2px solid #1a1c2e;
+    border-radius: 2px;
+    position: relative;
+}
+
+.hamburger::before {
+    content: "\2630";
+    display: block;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}

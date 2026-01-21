@@ -4,5 +4,15 @@ fetch('members.json')
     console.log(data);
 });
 
-/** GOOGLE FONTS API's */
+/* HAMBURGER BUTTON */
+const navButton = document.querySelector('#hamb-btn');
+const navBar = document.querySelector('#nav-bar');
+
+// Toggle the show class
+
+navButton.addEventListener('click', () => {
+    console.log('Clicked');
+    navButton.classList.toggle('show');
+    navBar.classList.toggle('show');
+});
 

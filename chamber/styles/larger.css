@@ -3,4 +3,17 @@
         min-height: 300px;
         height: 50vh;
     }
+
+    .navigation {
+        display: block;
+        position: static;
+        width: auto;
+        background: transparent;
+        box-shadow: none;
+        margin-top: 0;
+    }
+
+    .hamburger {
+        display: none;
+    }
 }
