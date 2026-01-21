@@ -20,4 +20,14 @@
     .navigation ul {
         flex-direction: row;
     }
+
+    /* 3 COLUMNS FOR LARGER SCREENS */
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        grid-template-areas:
+            "title title title"
+            "divider divider divider"
+            "events weather forecast";
+    }
 }

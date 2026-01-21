@@ -65,15 +65,17 @@ header {
     justify-content: space-between;
 }
 
-/* MAIN CONTENT GRID */
+/* MAIN CONTENT GRID FOR SMALL SCREENS */
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
     grid-template-areas:
-        "title title title"
-        "divider divider divider"
-        "events weather forecast forecast";
+        "title"
+        "divider"
+        "events"
+        "weather"
+        "forecast";
 }
 
 main h2 {
