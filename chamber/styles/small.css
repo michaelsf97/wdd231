@@ -59,7 +59,9 @@ header {
 
 /* WEATHER WIDGET */
 .current-weather {
-    margin: 2rem 0 1rem auto;;
+    margin: 2rem 0 1rem auto;
+    max-width: 400px;
+    text-align: right;
 }
 
 .weather-card {
