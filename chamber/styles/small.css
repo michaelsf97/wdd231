@@ -176,8 +176,8 @@ main hr:first-of-type {
 }
 
 .forecast-card {
-    background-color: #fff;
-    border-radius: 3px;
+    background-color: #d3d3d3;
+    border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
