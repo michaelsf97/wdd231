@@ -1,11 +1,11 @@
-@media (max-width: 770px) {
+@media (min-width: 770px) {
     .hero {
         min-height: 300px;
         height: 50vh;
     }
 
     .navigation {
-        display: block;
+        display: block !important;
         position: static;
         width: auto;
         background: transparent;
