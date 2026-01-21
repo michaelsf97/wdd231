@@ -68,12 +68,12 @@ header {
 /* MAIN CONTENT GRID */
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     grid-template-areas:
-        "title title"
-        "divider divider"
-        "events weather";
+        "title title title"
+        "divider divider divider"
+        "events weather forecast forecast";
 }
 
 main h2 {
