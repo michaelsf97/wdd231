@@ -12,19 +12,23 @@ async function displayMembers() {
         
         // Step 4: Check if container exists
         if (container) {
-            // Step 5: Create the HTML string using the data
-            const memberCard = `
-                <div class="member-card">
-                    <img src="${data.image}" alt="${data.company_name}">
-                    <h3>${data.company_name}</h3>
-                    <p><strong>Address:</strong> ${data.company_address}</p>
-                    <p><strong>Phone:</strong> ${data.company_phone_number}</p>
-                    <p><a href="${data.company_website_url}" target="_blank">Visit website</a></p>
-                </div>
-            `;
-            
-            // Step 6: Insert HTML into the page
-            container.innerHTML = memberCard;
+            // Step 5: Loop through each member in the array
+            data.members.forEach(member => {
+                // Create HTML for each member
+                const memberCard = `
+                    <div class="member-card">
+                        <img src="${member.image}" alt="${member.company_name}">
+                        <h3>${member.company_name}</h3>
+                        <p><strong>Address:</strong> ${member.company_address}</p>
+                        <p><strong>Phone:</strong> ${member.company_phone_number}</p>
+                        <p><strong>Membership Level:</strong> ${member.membership_level}</p>
+                        <p><a href="${member.company_website_url}" target="_blank">Visit website</a></p>
+                    </div>
+                `;
+                
+                // Step 6: Add this card to the container
+                container.innerHTML += memberCard;
+            });
         }
         
     } catch (error) {

@@ -1,8 +1,20 @@
 {
-    "company_name": "Uber",
-    "company_address": "St George Avenue 1234, Smith City, SC 569997",
-    "company_phone_number": "+57 (320-90-24-712)",
-    "company_website_url": "https://www.uber.com/global/es/sign-in",
-    "image": "images/uber.jpg",
-    "membership_level": "Gold"
+    "members": [
+        {
+            "company_name": "Uber",
+            "company_address": "St George Avenue 1234, Smith City, SC 569997",
+            "company_phone_number": "+57 (320-90-24-712)",
+            "company_website_url": "https://www.uber.com/global/es/sign-in",
+            "image": "images/uber.jpg",
+            "membership_level": "Gold"
+        },
+        {
+            "company_name": "Oracle",
+            "company_address": "567 Main Street, Eagle Ave - California, UT 649787",
+            "company_phone_number": "555-456-7890",
+            "company_website_url": "https://www.oracle.com/",
+            "image": "images/oracle-1920.jpg",
+            "membership_level": "Silver"
+        }
+    ]
 }
