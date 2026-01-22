@@ -129,7 +129,7 @@ main hr:first-of-type {
 .Events {
     grid-area: events;
     background-color: #d3d3d3;
-    color: #fff;
+    color: #3a3a3a;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgb(251, 251, 251);
@@ -162,7 +162,7 @@ main hr:first-of-type {
     background-color: #d3d3d3;
     border-radius: 8px;
     padding: 1.5rem;
-    box-shadow: 0 2px 8px rgba(251, 251, 251, 0.1);
+    box-shadow: 0 2px 8px rgb(251, 251, 251);
 }
 
 .weather-icon {
