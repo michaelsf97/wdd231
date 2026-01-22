@@ -73,10 +73,10 @@ main {
     grid-template-areas:
         "title"
         "divider"
-        "members"
         "events"
         "weather"
-        "forecast";
+        "forecast"
+        "members";
 }
 
 main h2 {
