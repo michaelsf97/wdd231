@@ -5,6 +5,7 @@ async function displayMembers() {
         const data= await response.json();
         
         // Create member card
+        data.members.forEach(member => {
         const memberCard = `
             <div class="member-card">
                 <img src="${data.image}" alt="${data.company_name}">
@@ -14,6 +15,7 @@ async function displayMembers() {
                 <p><a href="${data.company_website_url}" target="_blank">Visit website </a></p>
             </div>
         `;
+                    container.innerHTML += memberCard;
         
         // Add to page container directly from HTML
         const container = document.querySelector('#members-container');
