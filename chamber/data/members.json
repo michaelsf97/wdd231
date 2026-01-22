@@ -47,6 +47,14 @@
             "company_website_url": "https://www.amazon.com/",
             "image": "images/amazon97.jpg",
             "membership_level": "Bronze"
+        },
+        {
+            "company_name": "Facebook",
+            "company_address": "1 Hacker Way, Menlo Park, CA 94025",
+            "company_phone_number": "555-321-0987",
+            "company_website_url": "https://www.facebook.com/",
+            "image": "images/facebook97.png",
+            "membership_level": "Gold"
         }
     ]
 }
