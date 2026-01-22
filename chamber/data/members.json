@@ -39,6 +39,14 @@
             "company_website_url": "https://www.apple.com/",
             "image": "images/apple97.jpg",
             "membership_level": "Silver"
+        },
+        {
+            "company_name": "Amazon",
+            "company_address": "410 Terry Ave N, Seattle, WA 98109",
+            "company_phone_number": "555-654-3210",
+            "company_website_url": "https://www.amazon.com/",
+            "image": "images/amazon97.jpg",
+            "membership_level": "Bronze"
         }
     ]
 }
