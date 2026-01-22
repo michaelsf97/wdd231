@@ -65,6 +65,13 @@ header {
     justify-content: space-between;
 }
 
+header ul li a {
+    background-color: #00A8A8;
+    color: #fff;
+    border-radius: 8px;
+    
+}
+
 /* MAIN CONTENT GRID FOR SMALL SCREENS */
 main {
     display: grid;
