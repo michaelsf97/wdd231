@@ -31,4 +31,10 @@
             "events weather forecast"
             "members members members";
     }
+
+    /* MEMBER CARDS IN ROWS FOR LARGE SCREENS */
+    #members-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
 }
