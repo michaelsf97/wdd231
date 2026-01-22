@@ -83,7 +83,7 @@ main h2 {
     grid-area: title;
 }
 
-main h3 p {
+#events h3 p {
     background-color:#1a1c2e;
     text-align: center;
     border-radius: 8px;
