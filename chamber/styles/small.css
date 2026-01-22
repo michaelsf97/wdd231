@@ -162,7 +162,7 @@ main hr:first-of-type {
     background-color: #d3d3d3;
     border-radius: 8px;
     padding: 1.5rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(251, 251, 251, 0.1);
 }
 
 .weather-icon {
