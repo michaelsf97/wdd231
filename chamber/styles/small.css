@@ -1,6 +1,7 @@
 
 body {
   background-color: #3a3a3a;
+  color: #f5f5f5;
   margin: 0;
   padding: 0;
 }
@@ -77,7 +78,7 @@ header {
 }
 
 header ul li a {
-    background-color: #00A8A8;
+    background-color: #007575;
     color: #fff;
     border-radius: 8px;
 
@@ -249,7 +250,7 @@ main hr:first-of-type {
 }
 
 .forecast-icon {
-    color: #00A8A8;
+    color: #007575;
     text-align: center;
     margin-bottom: 0.5rem;
 }
@@ -266,7 +267,7 @@ main hr:first-of-type {
 
 /* FOOTER DESIGN */
 footer {
-    background-color: #00A8A8;
+    background-color: #007575;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
