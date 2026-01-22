@@ -2,7 +2,7 @@
 async function displayMembers() {
     try {
         const response = await fetch('data/members.json');
-        const data= await response.json();
+        const member= await response.json();
         
         // Create member card
         data.members.forEach(member => {
