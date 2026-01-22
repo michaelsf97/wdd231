@@ -71,6 +71,8 @@ header {
     justify-content: space-between;
 }
 
+
+
 header ul li a {
     background-color: #00A8A8;
     color: #fff;
@@ -94,6 +96,7 @@ main {
 
 main h2 {
     grid-area: title;
+    text-align: center;
 }
 
 
