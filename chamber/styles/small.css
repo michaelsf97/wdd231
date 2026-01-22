@@ -73,6 +73,7 @@ main {
     grid-template-areas:
         "title"
         "divider"
+        "members"
         "events"
         "weather"
         "forecast";
@@ -84,6 +85,10 @@ main h2 {
 
 main hr:first-of-type {
     grid-area: divider;
+}
+
+#members-container {
+    grid-area: members;
 }
 
 .Events {

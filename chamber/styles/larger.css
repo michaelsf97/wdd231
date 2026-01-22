@@ -28,6 +28,7 @@
         grid-template-areas:
             "title title title"
             "divider divider divider"
+            "members members members"
             "events weather forecast";
     }
 }
