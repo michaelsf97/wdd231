@@ -1,4 +1,10 @@
 
+body {
+  background-color: #3a3a3a;
+  margin: 0;
+  padding: 0;
+}
+
 .noto-sans-jp {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
@@ -122,11 +128,11 @@ main hr:first-of-type {
 
 .Events {
     grid-area: events;
-    background-color: #1a1c2e;
+    background-color: #d3d3d3;
     color: #fff;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgb(251, 251, 251);
     text-align: center;
 }
 
