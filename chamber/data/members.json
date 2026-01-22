@@ -23,6 +23,14 @@
             "company_website_url": "https://www.microsoft.com/",
             "image": "images/microsoft.jpeg",
             "membership_level": "Bronze"
+        },
+        {
+            "company_name": "Google",
+            "company_address": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+            "company_phone_number": "555-123-4567",
+            "company_website_url": "https://www.google.com/",
+            "image": "images/google.jpg",
+            "membership_level": "Gold"
         }
     ]
 }
