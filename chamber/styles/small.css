@@ -83,11 +83,7 @@ main h2 {
     grid-area: title;
 }
 
-#events h3 p {
-    background-color:#1a1c2e;
-    text-align: center;
-    border-radius: 8px;
-}
+
 
 main hr:first-of-type {
     grid-area: divider;
@@ -119,6 +115,24 @@ main hr:first-of-type {
 
 .Events {
     grid-area: events;
+    background-color: #1a1c2e;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Events h3 {
+    padding: 2px;
+    margin-bottom: 3px;
+
+}
+
+.Events p {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5;
 }
 
 /* WEATHER WIDGET */
