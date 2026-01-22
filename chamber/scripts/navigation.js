@@ -15,13 +15,15 @@ async function displayMembers() {
                 <p><a href="${member.company_website_url}" target="_blank">Visit website </a></p>
             </div>
         `;
-                    container.innerHTML += memberCard;
+                   
         });
         
         // Add to page container directly from HTML
         const container = document.querySelector('#members-container');
         if (container) {
             container.innerHTML = memberCard;
+
+             container.innerHTML += memberCard;
         }
         
     } catch (error) {
