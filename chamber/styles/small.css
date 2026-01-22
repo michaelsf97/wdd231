@@ -83,6 +83,12 @@ main h2 {
     grid-area: title;
 }
 
+main h3 p {
+    background-color:#1a1c2e;
+    text-align: center;
+    border-radius: 8px;
+}
+
 main hr:first-of-type {
     grid-area: divider;
 }
