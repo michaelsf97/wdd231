@@ -31,6 +31,14 @@
             "company_website_url": "https://www.google.com/",
             "image": "images/google.jpg",
             "membership_level": "Gold"
+        },
+        {
+            "company_name": "Apple",
+            "company_address": "1 Infinite Loop, Cupertino, CA 95014",
+            "company_phone_number": "555-987-6543",
+            "company_website_url": "https://www.apple.com/",
+            "image": "images/apple97.jpg",
+            "membership_level": "Silver"
         }
     ]
 }
