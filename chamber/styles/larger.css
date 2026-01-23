@@ -17,8 +17,13 @@
         display: none;
     }
 
-    .navigation ul {
+    nav ul {
         flex-direction: row;
+        gap: 2rem;
+    }
+
+    nav ul li {
+        border-bottom: none;
     }
 
     /* 3 COLUMNS FOR LARGER SCREENS */
