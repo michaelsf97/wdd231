@@ -63,7 +63,7 @@ const gridViewBtn = document.querySelector('#grid-view');
 const listViewBtn = document.querySelector('#list-view');
 const membersContainer = document.querySelector('#members-container');
 
-if (gridViewBtn && listViewBtn && mmembersContainer) {
+if (gridViewBtn && listViewBtn && membersContainer) {
     gridViewBtn.addEventListener('click', () => {
         membersContainer.classList.remove('list-view');
         gridViewBtn.classList.add('active');
@@ -72,7 +72,7 @@ if (gridViewBtn && listViewBtn && mmembersContainer) {
 
     listViewBtn.addEventListener('click', () => {
         membersContainer.classList.add('list-view');
-        gridViewBtn.classList.remove('grid-view');
-        listViewBtn.classList.add('list-view');
+        listViewBtn.classList.add('active');
+        gridViewBtn.classList.remove('active');
     });
 }
