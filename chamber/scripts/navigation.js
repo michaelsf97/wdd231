@@ -58,3 +58,21 @@ window.addEventListener('resize', () => {
     }
 });
 
+/* GRID LIST VIEW */
+const gridViewBtn = document.querySelector('#grid-view');
+const listViewBtn = document.querySelector('#list-view');
+const membersContainer = document.querySelector('#members-container');
+
+if (gridViewBtn && listViewBtn && mmembersContainer) {
+    gridViewBtn.addEventListener('click', () => {
+        membersContainer.classList.remove('list-view');
+        gridViewBtn.classList.add('active');
+        listViewBtn.classList.remove('active');
+    });
+
+    listViewBtn.addEventListener('click', () => {
+        membersContainer.classList.add('list-view');
+        gridViewBtn.classList.remove('grid-view');
+        listViewBtn.classList.add('list-view');
+    });
+}

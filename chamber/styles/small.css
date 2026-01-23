@@ -122,11 +122,58 @@ main hr:first-of-type {
     grid-area: divider;
 }
 
+/* VIEW TOGGLE BUTTONS */
+.view-toggle {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.view-toggle button {
+    padding: 0.5rem 1.5rem;
+    background-color: #007575;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.view-toggle button:hover {
+    background-color: #005555;
+}
+
+.view-toggle button.active {
+    background-color: #f5a623;
+    font-weight: bold;
+}
+
 #members-container {
     grid-area: members;
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+}
+
+/* LIST VIEW */
+#members-container.list-view {
+    display: flex;
+    flex-direction: column;
+}
+
+#members-container.list-view .member-card {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 1rem;
+    text-align: left;
+}
+
+#members-container.list-view .member-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .member-card {
