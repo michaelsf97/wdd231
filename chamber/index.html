@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smith Chamber of Commerce - Supporting local businesses in Saint George">
+    <meta name="author" content="Michael Smith Saavedra Forero">
+    <meta property="og:title" content="Smith Chamber Of Commerce - Home">
+    <meta property="og:description" content="Connecting businesses and fostering economic growth in our community">
+    <meta property="og:url" content="https://michaelsf97.github.io/wdd231/chamber/index.html">
+    <meta property="og:image" content="https://michaelsf97.github.io/wdd231/chamber/images/chamberlogo.png">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bubblegum+Sans&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Home - Smith Chamber Of Commerce</title>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo-section">
+            <img src="images/chamberlogo.png" alt="Chamber tiger logo" width="100" height="100">
+            <span class="chamber-name">Smith Chamber Of Commerce</span>
+        </div>
+        <nav id="nav-bar" class="navigation" aria-label="Main Navigation">
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="directory.html">Business Directory</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </nav>
+        <button id="hamb-btn" class="hamburger" aria-label="Toggle navigation menu"></button>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Smith Chamber Of Commerce</h1>
+            <p>Empowering local businesses since 2026</p>
+        </div>
+        <button class="cta-button">Register Now</button>
+    </section>
+
+    <main>
+        <h2><strong>Welcome to Our Community</strong></h2>
+        <hr>
+
+        <section class="Events" id="events">
+            <h3>Upcoming Events</h3>
+            <p>Join us for our next networking event and business workshop. Connect with local entrepreneurs and learn strategies to grow your business.</p>
+            <p><strong>Date: February 15th, 2026 - 9:00 AM to 1:00 PM</strong></p>
+            <hr>
+            <p>Investment Workshop: "How to invest with Gas Stations" - A comprehensive guide for aspiring investors.</p>
+            <p><strong>Date: March 23rd, 2026 - 10:00 AM to 2:00 PM</strong></p>
+        </section>
+
+        <section class="current-weather" id="current-weather">
+            <h3>Current Weather</h3>
+            <div class="weather-card">
+                <div class="weather-icon">
+                    <i class="fas fa-cloud-sun fa-4x"></i>
+                </div>
+                <div class="weather-info">
+                    <p class="temperature">72°F</p>
+                    <p class="condition">Partly Cloudy</p>
+                    <p class="location">Saint George, UT</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="weather-forecast" id="forecast">
+            <h3>3-day Forecast</h3>
+            <div class="forecast-container">
+                <div class="forecast-day">
+                    <h4> Tomorrow </h4>
+                    <i class="fas fa-sun fa-2x"></i>
+                    <p>75°F / 52°F</p>
+                    <p>Sunny</p>
+                </div>
+                <div class="forecast-day">
+                    <h4>Monday</h4>
+                    <i class="fas fa-cloud fa-2x"></i>
+                    <p>68°F / 48°F</p>
+                    <p>Cloudy</p>
+                </div>
+                <div class="forecast-day">
+                    <h4> Tuesday </h4>
+                    <i class="fas fa-cloud-showers-heavy fa-2x"></i>
+                    <p>62°F / 45°F</p>
+                    <p>Rainy</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="spotlight-members">
+            <h3>Spotlight Members</h3>
+            <div class="spotlight-grid">
+                <div class="member-card">
+                    <img src="images/amazon97.jpg" alt="Amazon">
+                    <h3>Amazon</h3>
+                    <p><strong>Membership Level:</strong> Gold</p>
+                    <p>Leading projects with e - commerce and</p>
+                </div>
+                <div class="member-card">
+                    <img src="images/tesla97.jpg" alt="Tesla">
+                    <h3>Tesla</h3>
+                    <p><strong>Membership Level:</strong> Silver</p>
+                    <p>Electric vehicles and clean energy solutions</p>
+                </div>
+                <div class="member-card">
+                    <img src="images/google.jpg" alt="Google">
+                    <h3>Google</h3>
+                    <p><strong>Membership Level:</strong> Gold</p>
+                    <p>Technology and internet services</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Business Ave, Saint George, UT 84770</p>
+                <p><i class="fas fa-phone"></i> (435) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> info@smithchamber.org</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Smith Chamber Of Commerce. All rights reserved.</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('lastModified').textContent = document.lastModified;
+    </script>
+</body>
+</html>
