@@ -1,6 +1,6 @@
 // OpenWeatherMap API Configuration
 // ⚠️ IMPORTANT: Replace 'YOUR_API_KEY_HERE' with your actual API key
-const API_KEY = 'YOUR_API_KEY_HERE';
+const API_KEY = 'a5f73961288ab453289a522477283530';
 const CITY = 'Saint George';
 const STATE = 'UT';
 const COUNTRY = 'US';
