@@ -76,3 +76,9 @@ if (gridViewBtn && listViewBtn && membersContainer) {
         gridViewBtn.classList.remove('active');
     });
 }
+
+// Display last modified date in footer
+const lastModifiedElement = document.getElementById('lastModified');
+if (lastModifiedElement) {
+    lastModifiedElement.textContent = document.lastModified;
+}
