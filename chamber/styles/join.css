@@ -1,0 +1,6 @@
+.membership-form {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    position: relative;
+}
