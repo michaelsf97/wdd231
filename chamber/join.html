@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Join Our Chamber</title>
+	<link rel="stylesheet" href="styles/small.css">
+	<link rel="stylesheet" href="styles/larger.css" media="(min-width: 600px)">
+</head>
+<body>
+	<!--#include virtual="header.html" -->
+	<!--#include virtual="navigation.html" -->
+	<main>
+		<section class="benefits">
+			<h2>Membership Benefits</h2>
+			<ul>
+				<li>Networking opportunities with local businesses</li>
+				<li>Access to exclusive events and workshops</li>
+				<li>Business promotion on our directory</li>
+				<li>Advocacy for local business interests</li>
+				<li>Discounts on chamber-sponsored services</li>
+			</ul>
+		</section>
+		<section class="join-form">
+			<h2>Membership Application</h2>
+			<form action="thankyou.html" method="get">
+				<label for="Full Name">Full Name:</label>
+				<input type="text" id="fullname" name="fullname" required>
+
+				<label for="email-address"></label>Email Address:</label>
+				<input type="email" id="email-address"name="email-address" required>
+
+				<label for="phone-number">Phone Number:</label>
+				<input type="tel" id="phone-number" name="phone-number" required>
+
+                <label for="organizational-title"> Organizational Title:</label>
+                <input type="text" id="organizational-title" name="organizational-title" pattern="[A-Za-z\s\-]+" title="Only alphabetic characters, hyphens, and spaces, are allowed" required>
+
+				<label for="business">Business/Organization:</label>
+				<input type="text" id="business" name="business" required>
+
+				<label for="membership">Membership Level:</label>
+				<select id="membership" name="membership" required title="Enter your business or organization name" autocomplete ="organization">
+                    
+					<option value="">Select a level</option>
+					<option value="bronze">Bronze</option>
+					<option value="silver">Silver</option>
+					<option value="gold">Gold</option>
+				</select>
+
+				<label for="description">Business Description:</label>
+				<textarea id="description" name="description" rows="4"></textarea>
+
+				<button type="submit">Join Now</button>
+			</form>
+		</section>
+	</main>
+	<!--#include virtual="footer.html" -->
+</body>
+</html>
