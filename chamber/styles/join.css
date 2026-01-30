@@ -71,8 +71,8 @@ ul li {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    border: 1px solid #fc0303;
-    background-color:#006600;
+    border: 1px solid #fefdfd;
+    background-color:#f6f8f6;
     border-radius: 8px;
     padding: 16px;
     margin: 16px;
