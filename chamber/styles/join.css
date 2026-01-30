@@ -14,7 +14,7 @@ label {
 
 }
 
-.button-join {
+button {
     margin: 10px 0;
     padding: 6px 12px;
     justify-content: center;
@@ -26,7 +26,7 @@ label {
 
 }
 
-.button-join:hover {
+button:hover {
     background-color: #00AA;
     transition: background-color 0.3s ease;
 }
