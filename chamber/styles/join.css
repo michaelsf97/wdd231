@@ -71,6 +71,7 @@ ul li {
     justify-content: flex-end;
     align-items: flex-end;
     border: 1px solid #fc0303;
+    background-color:#006600;
     border-radius: 8px;
     padding: 16px;
     margin: 16px;
