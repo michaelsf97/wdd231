@@ -28,6 +28,6 @@ button {
 }
 
 button:hover {
-    background-color: #00AA;
+    background-color: rgba(170, 0, 0, 0.667);
     transition: background-color 0.3s ease;
 }
