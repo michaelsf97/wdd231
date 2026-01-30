@@ -22,14 +22,14 @@ button {
     justify-content: left;
     align-items: left;
     font-size: 16px;
-    background-color: #006600;
+    background-color: #3a3a3a;
     color:black;
     border-radius: 4px;
 
 }
 
 button:hover {
-    background-color: rgba(170, 0, 0, 0.667);
+    background-color: rgb(252, 251, 251);
     transition: background-color 0.3s ease;
 }
 
