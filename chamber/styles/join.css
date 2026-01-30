@@ -50,3 +50,11 @@ button:hover {
     align-items: left;
     color: #006600;
 }
+
+ul li {
+    margin: 10px 0;
+    padding: 6px 12px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
