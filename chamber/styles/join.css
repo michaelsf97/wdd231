@@ -58,3 +58,15 @@ ul li {
     justify-content: left;
     align-items: left;
 }
+
+.card {
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    border: 1px solid #fc0303;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+
+}
