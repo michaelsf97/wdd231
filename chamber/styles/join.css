@@ -31,3 +31,11 @@ button:hover {
     background-color: rgba(170, 0, 0, 0.667);
     transition: background-color 0.3s ease;
 }
+
+.form-group {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
