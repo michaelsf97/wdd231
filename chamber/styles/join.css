@@ -8,6 +8,8 @@
 label {
     margin: 10px 0;
     padding: 6px;
-    align-items: row;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
 
 }
