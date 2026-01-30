@@ -13,3 +13,18 @@ label {
     font-weight: bold;
 
 }
+
+.button-join {
+    margin: 10px 0;
+    padding: 6px 12px;
+    font-size: 16px;
+    background-color: #006600;
+    color:black;
+    border-radius: 4px;
+
+}
+
+.button-join:hover {
+    background-color: #00AA;
+    transition: background-color 0.3s ease;
+}
