@@ -72,9 +72,15 @@ ul li {
     justify-content: flex-end;
     align-items: flex-end;
     border: 1px solid #fefdfd;
-    background-color:#f6f8f6;
+    background-color:#f6f8f6;   
     border-radius: 8px;
     padding: 16px;
     margin: 16px;
 
+}
+
+h3 {
+    color: #3a3a3a;
+    padding: 4px;
+    margin: 4px;
 }
