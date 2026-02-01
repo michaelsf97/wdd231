@@ -7,6 +7,34 @@ document.querySelector('form').addEventListener('submit', function() {
 
 /* 1. Cards */
 
+const cardData = [
+    { title: 'Membership Levels', content: 'Details about membership levels.' },
+    { title: 'Bronze Membership', content: 'Bronze level benefits and info.' },
+    { title: 'Silver Membership', content: 'silver level benefits and info. '},
+    { title: 'Gold Membership', content: 'Gold level benefits and info.' },
+];
+
+const container = document.getElementById('cards-container');
+if (container) {
+    cardData.forEach(data => {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const title = document.createElement('h3');
+        title.textContent = data.title;
+        card.appendChild(title);
+
+        const content = document.createElement('p');
+        content.textContent = data.content;
+        card.appendChild(content);
+
+        container.appendChild(card);
+
+
+
+    });
+}
+
 const card = document.createElement('div');
 card.className = 'card';
 
