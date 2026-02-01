@@ -15,10 +15,13 @@ const title = document.createElement('h3');
 title.textContent = 'Membership Levels';
 card.appendChild(title);
 
+const openDialogBtn = document.querySelector('#open-nonprofit-dialog');
 const nonProfitDialog = document.querySelector('#nonprofit-dialog');
-const closenonProfitDialog = document.querySelector('#close-nonprofit-dialog');
-nonProfitDialog.shownonProfitDialog();
+openDialogBtn.addEventListener('click', () => {
+    nonProfitDialog.showModal();
+});
 
+const closenonProfitDialog = document.querySelector('#close-nonprofit-dialog');
 closenonProfitDialog.addEventListener('click', () => {
     nonProfitDialog.close();
 });
