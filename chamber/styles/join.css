@@ -92,28 +92,23 @@ ul li {
 
 #card-container {
     
-    top: 0;
-    right: 0;
-    display:flex;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
-    margin-top: 0;
-    z-index: 100;
+    margin-top: 0.5em;
+    z-index: 1;
 }
 
 .card {
     
-    top: 10px;
-    right: 10px;
-    float: right;
-    margin-right: 2rem;
-    display:flex;
+    display: flex;
     flex-direction: column;
     border: 1px solid #fefdfd;
-    background-color:#f6f8f6;   
+    background-color: #f6f8f6;
     border-radius: 8px;
     padding: 16px;
     max-width: 300px;
+    margin-right: 2rem;
 
 }
 
@@ -131,6 +126,14 @@ p {
 }
 
 body {
+    /* Membership Levels Section Layout */
+    .membership-levels-section {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        margin-top: 2em;
+    }
     position: relative;
     min-height: 100vh;
 }
