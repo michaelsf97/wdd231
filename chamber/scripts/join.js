@@ -25,3 +25,15 @@ const closenonProfitDialog = document.querySelector('#close-nonprofit-dialog');
 closenonProfitDialog.addEventListener('click', () => {
     nonProfitDialog.close();
 });
+
+
+const openDialogBtn = document.querySelector('#open-bronze-dialog-btn');
+const bronzeDialog = document.querySelector('#bronze-dialog');
+openDialogBtn.addEventListener('click', () => {
+    bronzeDialog.showModal();
+});
+
+
+
+
+
