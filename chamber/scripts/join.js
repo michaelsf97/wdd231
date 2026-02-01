@@ -20,7 +20,7 @@ if (container) {
         const card = document.createElement('div');
         card.className = 'card';
 
-        const title = document.createElement('h3');
+        const title = document.createElement('h3', 'h5');
         title.textContent = data.title;
         card.appendChild(title);
 
