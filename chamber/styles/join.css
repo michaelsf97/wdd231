@@ -4,12 +4,10 @@
 }
 
 #card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end; /* or center if you want the card centered */
+    display: block;
     width: 100%;
     margin-top: 0;
-    position: static; /* ensure no absolute/fixed positioning */
+    position: static;
 }
 
 .card {
