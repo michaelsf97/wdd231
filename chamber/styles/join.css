@@ -60,15 +60,20 @@ ul li {
     align-items: left;
 }
 
+#card-container-title {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
 
 #card-container {
     position: absolute;
     top: 0;
     right: 0;
     display:flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
-    margin-top: 2em;
+    margin-top: 0;
     z-index: 100;
 }
 
