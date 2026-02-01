@@ -71,6 +71,9 @@ ul li {
 }
 
 .card {
+    position: absolute;
+    top: 100%;
+    right: 0;
     float: right;
     margin-right: 2em;
     display:flex;
