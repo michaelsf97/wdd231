@@ -101,8 +101,8 @@ ul li {
 
 .card {
     
-    display: flex;
     flex-direction: column;
+    display: flex;
     border: 1px solid #fefdfd;
     background-color: #f6f8f6;
     border-radius: 8px;

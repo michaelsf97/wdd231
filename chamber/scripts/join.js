@@ -30,7 +30,7 @@ closenonProfitDialog.addEventListener('click', () => {
 const openDialogBtn = document.querySelector('#open-bronze-dialog-btn');
 const bronzeDialog = document.querySelector('#bronze-dialog');
 openDialogBtn.addEventListener('click', () => {
-    bronzeDialog.showModal();
+bronzeDialog.showModal();
 });
 
 
