@@ -62,8 +62,8 @@ ul li {
 
 
 #card-container {
+    position: relative;
     display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
     gap: 1em;
     width: 100%;
@@ -71,15 +71,16 @@ ul li {
 }
 
 .card {
+    float: right;
+    margin-right: 2em;
     display:flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
     border: 1px solid #fefdfd;
     background-color:#f6f8f6;   
     border-radius: 8px;
     padding: 16px;
     margin-top: 16px;
+    max-width: 300px;
 
 }
 
