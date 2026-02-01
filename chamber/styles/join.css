@@ -1,3 +1,28 @@
+#card-container-title {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* or center if you want the card centered */
+    width: 100%;
+    margin-top: 0;
+    position: static; /* ensure no absolute/fixed positioning */
+}
+
+.card {
+    max-width: 300px;
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 0;
+    position: static; /* ensure no absolute/fixed positioning */
+}
 .membership-form {
     display: flex;
     justify-content: column;
