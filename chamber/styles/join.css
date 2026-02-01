@@ -4,7 +4,8 @@
 }
 
 #card-container {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
     margin-top: 0;
     position: static;
