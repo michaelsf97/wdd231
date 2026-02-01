@@ -64,14 +64,16 @@ ul li {
 #card-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
+    gap: 1em;
+    width: 100%;
 }
 
 .card {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
     border: 1px solid #fefdfd;
     background-color:#f6f8f6;   
     border-radius: 8px;
