@@ -63,7 +63,7 @@ ul li {
 
 #card-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
     gap: 1em;
     width: 100%;
@@ -73,7 +73,7 @@ ul li {
 .card {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
     border: 1px solid #fefdfd;
     background-color:#f6f8f6;   
