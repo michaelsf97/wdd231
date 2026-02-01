@@ -65,7 +65,9 @@ ul li {
     position: absolute;
     top: 0;
     right: 0;
-    align-items: center;
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
     margin: 2em;
     z-index: 100;
 }
