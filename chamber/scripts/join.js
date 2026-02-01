@@ -14,3 +14,11 @@ card.className = 'card';
 const title = document.createElement('h3');
 title.textContent = 'Membership Levels';
 card.appendChild(title);
+
+const nonProfitDialog = document.querySelector('#nonprofit-dialog');
+const closenonProfitDialog = document.querySelector('#close-nonprofit-dialog');
+nonProfitDialog.shownonProfitDialog();
+
+closenonProfitDialog.addEventListener('click', () => {
+    nonProfitDialog.close();
+});
