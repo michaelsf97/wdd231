@@ -24,19 +24,19 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             title: 'Silver Membership',
-            content: 'Silver level benefits and info.',
+            content: 'Silver Level benefits and info.',
             dialogTitle: 'Silver Membership Details',
             dialogContent: 'Description of benefits with this level.'
         },
         {
             title: 'Gold Membership',
-            content: 'Gold level benefits and info.',
+            content: 'Gold Level benefits and info.',
             dialogTitle: 'Gold Membership Level Details',
             dialogContent: 'Description of benefits with this level.'
         }
     ];
 
-    // Use the correct container id
+    // Use the container correctly to append cards
     const container = document.getElementById('card-container');
     if (container) {
         cardInfo.forEach((data, idx) => {
@@ -55,12 +55,10 @@ document.addEventListener('DOMContentLoaded', function() {
             const button = document.createElement('button');
             button.textContent = 'Learn More';
             button.setAttribute('type', 'button');
-            button.id = `open-dialog-${idx}`;
             card.appendChild(button);
 
             // Dialog
             const dialog = document.createElement('dialog');
-            dialog.id = `dialog-${idx}`;
 
             const dialogTitle = document.createElement('h4');
             dialogTitle.textContent = data.dialogTitle;
@@ -73,7 +71,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const closeBtn = document.createElement('button');
             closeBtn.textContent = 'Close';
             closeBtn.setAttribute('type', 'button');
-            closeBtn.id = `close-dialog-${idx}`;
             dialog.appendChild(closeBtn);
 
             card.appendChild(dialog);
