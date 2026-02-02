@@ -31,42 +31,33 @@
 
                 <div class="form-group">
 
-				<label for="Full Name">Full Name:</label>
-				<input type="text" id="fullname" name="fullname" required>
-                
+				<label for="fullname">Full Name:</label>
+				<input type="text" id="fullname" name="fullname" title="Enter your full name" autocomplete="name" required>
 
 				<label for="email-address">Email Address:</label>
-				<input type="email" id="email-address"name="email-address" required>
-                
+				<input type="email" id="email-address" name="email-address" title="Enter your email address" autocomplete="email" required placeholder="example@email.com">
 
 				<label for="phone-number">Phone Number:</label>
-				<input type="tel" id="phone-number" name="phone-number" required>
-                
+				<input type="tel" id="phone-number" name="phone-number" title="Enter your phone number" autocomplete="tel" required>
 
-                <label for="organizational-title"> Organizational Title:</label>
-                <input type="text" id="organizational-title" name="organizational-title" pattern="[A-Za-z\s\-]+" title="Only alphabetic characters, hyphens, and spaces, are allowed" required>
-                
+				<label for="organizational-title">Organizational Title:</label>
+				<input type="text" id="organizational-title" name="organizational-title" pattern="[A-Za-z\s\-]{7,}" title="At least 7 letters, hyphens, and spaces only" autocomplete="organization-title" required>
 
 				<label for="business">Business/Organization:</label>
-				<input type="text" id="business" name="business" required>
-                
+				<input type="text" id="business" name="business" title="Enter your business or organization name" autocomplete="organization" required>
 
 				<label for="membership">Membership Level:</label>
-				<select id="membership" name="membership" required title="Enter your business or organization name" autocomplete ="organization">
-                
-                    
+				<select id="membership" name="membership" title="Select your membership level" autocomplete="organization" required>
 					<option value="">Select a level</option>
 					<option value="bronze">Bronze</option>
 					<option value="silver">Silver</option>
 					<option value="gold">Gold</option>
 				</select>
-                
 
 				<label for="description">Business Description:</label>
-				<textarea id="description" name="description" rows="1"></textarea>
-                
+				<textarea id="description" name="description" title="Describe your business" autocomplete="off" rows="1"></textarea>
 
-                <input type="hidden" id="timestamp" name="timestamp">
+				<input type="hidden" id="timestamp" name="timestamp">
                 </div>
 
 				<button type="submit"> Join US</button>
