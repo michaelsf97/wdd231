@@ -14,19 +14,19 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Nonprofit Membership',
             content: 'Design for nonprofit organizations.',
             dialogTitle: 'Nonprofit Membership Details',
-            dialogContent: 'Details and benefits for nonprofits organizations.'
+            dialogContent: 'These details about this is without profits, only membership and no more.'
         },
         {
             title: 'Bronze Membership',
             content: 'Bronze level benefits and info.',
             dialogTitle: 'Bronze Membership Details',
-            dialogContent: 'Description of benefits with this level.'
+            dialogContent: 'Bronze membership acquires information about costs and benefits too, at time to purchase inversions. Special events, training with workshops to take advantages. Some discounts.'
         },
         {
             title: 'Silver Membership',
             content: 'Silver Level benefits and info.',
             dialogTitle: 'Silver Membership Details',
-            dialogContent: 'Description of benefits with this level.'
+            dialogContent: 'Silver is a membership with reduce costs to purchase businesses, in a silver list to businesses with standards proccedures, meetings with better enterpreneurs."
         },
         {
             title: 'Gold Membership',
