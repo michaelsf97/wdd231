@@ -1,5 +1,8 @@
 @media screen and (min-width: 640px) {
     #card-container {
-        justify-content: center;
+        display: grid;
+        grid-template-rows: auto auto;
+        
+
     }
 }
