@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Silver Membership',
             content: 'Silver Level benefits and info.',
             dialogTitle: 'Silver Membership Details',
-            dialogContent: 'Silver is a membership with reduce costs to purchase businesses, in a silver list to businesses with standards proccedures, meetings with better enterpreneurs."
+            dialogContent: 'Silver is a membership with reduce costs to purchase businesses, in a silver list to businesses with standards proccedures, meetings with better enterpreneurs.'
         },
         {
             title: 'Gold Membership',
