@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Gold Membership',
             content: 'Gold Level benefits and info.',
             dialogTitle: 'Gold Membership Level Details',
-            dialogContent: 'Description of benefits with this level.'
+            dialogContent: 'Description of benefits with this membership in which covers all kind of services, Gold list, best enterpreneurs, best businesses with best companies throughout world, meetings face to face with CEO. Orientation with all kind of scores, percentages, earnings and expenses.'
         }
     ];
 
