@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You!!!</title>
+
 </head>
 <body>
     <header>
@@ -11,6 +12,38 @@
         <p> We appreciate your support and interest and looking forward to work with you</p>
         <p> A confirmation email has been provided to your email address on file</p>
     </header>
+
+
+    <div id="thankyou-info"></div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+
+            const name = params.get('fullname');
+            const email = params.get('email-address');
+            const phone = params.get('phone-number');
+            const business = params.get('business-name');
+            const membership = params.get('membership');
+            const description = params.get('description');
+
+
+
+            document.getElementById('thankyou-info').innerHTML = `
+                <h2>Thank you for joining! </h2>
+                <ul>
+                    <li><strong>Full Name:</strong> ${name}</li>
+                    <li><strong>Email Address:</strong> ${email}</li>
+                    <li><strong>Phone Number:</strong> ${phone}</li>
+                    <li><strong>Business/Organization:</strong> ${business}</li>
+                    <li><strong>Membership Level:</strong> ${membership}</li>
+                    <li><strong>Description:</strong> ${description}</li>
+                </ul>
+            `;
+
+            });
+
+    </script>
     
 </body>
 </html>
