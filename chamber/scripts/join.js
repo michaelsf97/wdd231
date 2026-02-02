@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Add timestamp to form
+    
+
     const form = document.querySelector('form');
     if (form) {
         form.addEventListener('submit', function() {
@@ -8,23 +9,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Card data with dialog info
-    const cardData = [
+    const cardInfo = [
         {
             title: 'Nonprofit Membership',
-            content: 'Designed for nonprofit organizations.',
-            dialogTitle: 'Nonprofit Membership Level Details',
-            dialogContent: 'Details and benefits for nonprofit members.'
+            content: 'Design for nonprofit organizations.',
+            dialogTitle: 'Nonprofit Membership Details',
+            dialogContent: 'Details and benefits for nonprofits organizations.'
         },
         {
             title: 'Bronze Membership',
             content: 'Bronze level benefits and info.',
-            dialogTitle: 'Bronze Membership Level Details',
+            dialogTitle: 'Bronze Membership Details',
             dialogContent: 'Description of benefits with this level.'
         },
         {
             title: 'Silver Membership',
             content: 'Silver level benefits and info.',
-            dialogTitle: 'Silver Membership Level Details',
+            dialogTitle: 'Silver Membership Details',
             dialogContent: 'Description of benefits with this level.'
         },
         {
@@ -38,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Use the correct container id
     const container = document.getElementById('card-container');
     if (container) {
-        cardData.forEach((data, idx) => {
+        cardInfo.forEach((data, idx) => {
             const card = document.createElement('div');
             card.className = 'card';
 
