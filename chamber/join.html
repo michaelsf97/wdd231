@@ -47,10 +47,13 @@
 			<h2>Membership Application</h2>
 			<form action="thankyou.html" method="get">
 
-                <div class="form-group">
 
-				<label for="fullname">Full Name:</label>
-				<input type="text" id="fullname" name="fullname" title="Enter your full name" autocomplete="name" required>
+				<div class="form-group">
+					<label for="first-name">First Name:</label>
+					<input type="text" id="first-name" name="first-name" title="Enter your first name" autocomplete="given-name" required>
+
+					<label for="last-name">Last Name:</label>
+					<input type="text" id="last-name" name="last-name" title="Enter your last name" autocomplete="family-name" required>
 
 				<label for="email-address">Email Address:</label>
 				<input type="email" id="email-address" name="email-address" title="Enter your email address" autocomplete="email" required placeholder="example@email.com">
@@ -66,10 +69,11 @@
 
 				<label for="membership">Membership Level:</label>
 				<select id="membership" name="membership" title="Select your membership level" autocomplete="organization" required>
-					<option value="">Select a level</option>
-					<option value="bronze">Bronze</option>
-					<option value="silver">Silver</option>
-					<option value="gold">Gold</option>
+					   <option value="">Select a level</option>
+					   <option value="np">Non-Profit</option>
+					   <option value="bronze">Bronze</option>
+					   <option value="silver">Silver</option>
+					   <option value="gold">Gold</option>
 				</select>
 
 				<label for="description">Business Description:</label>
