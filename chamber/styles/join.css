@@ -149,7 +149,7 @@ button {
     align-items: flex-start;
     font-size: 16px;
     background-color: #3a3a3a;
-    color: black;
+    color: #fff;
     border-radius: 4px;
 
 }
@@ -239,7 +239,7 @@ h3 {
 }
 
 p {
-    color: #3a3a3a;
+    color: #fff;
 }
 
 body {
