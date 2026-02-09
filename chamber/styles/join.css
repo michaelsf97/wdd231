@@ -1,9 +1,4 @@
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 500px;
-    margin: 0 auto;
-    width: 100%;
+    /* reset */
 /* Card style for form groups */
 .card-form-group, .card {
         margin-top: 2em;
