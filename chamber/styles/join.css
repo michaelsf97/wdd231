@@ -1,3 +1,20 @@
+/* Main header styling for white text on black background */
+.main-header {
+    background: #000;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+.main-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+}
+.main-header p {
+    margin: 0.5em 0 0 0;
+    font-size: 1.25em;
+    color: #fff;
+}
 
 
 
