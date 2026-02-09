@@ -1,11 +1,15 @@
 /* Card style for form groups */
-.card-form-group {
+.card-form-group, .card {
+        margin-top: 2em;
     background: #f6f8f6;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     padding: 1.5em 1em;
     margin-bottom: 1.5em;
     border: 1px solid #e0e0e0;
+    color: #23272f;
+    max-width: 350px;
+    width: 100%;
 }
 /* Main header styling for white text on black background */
 .main-header {
