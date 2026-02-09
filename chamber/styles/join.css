@@ -109,11 +109,10 @@ ul li {
     border-radius: 8px;
     background: #f6f8f6;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    margin: 12px;
+    margin: 12px 0 12px 0;
     position: static;
     flex-direction: column;
     display: flex;
-    margin-right: 2rem;
     opacity: 0;
     transform: translateY(30px);
     animation: cardFadeIn 0.8s ease-out forwards;
