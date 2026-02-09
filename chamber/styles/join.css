@@ -1,3 +1,33 @@
+    /* Flex layout for main content */
+    .main-content-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 3em;
+        max-width: 1200px;
+        margin: 0 auto 2em auto;
+        width: 100%;
+    }
+
+    .join-form {
+        flex: 2 1 400px;
+        min-width: 340px;
+        max-width: 500px;
+    }
+
+    .membership-levels-section {
+        flex: 1 1 300px;
+        min-width: 260px;
+        max-width: 350px;
+        margin-top: 2.5em;
+        background: #f6f8f6;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        padding: 1.5em 1em;
+        border: 1px solid #e0e0e0;
+        color: #23272f;
+    }
     /* reset */
 /* Card style for form groups */
 .card-form-group, .card {
@@ -14,10 +44,19 @@
 }
 /* Main header styling for white text on black background */
 .main-header {
-    background: #000;
+    background: #23272f;
     color: #fff;
     padding: 2em 0;
     text-align: center;
+    border-bottom: 4px solid #0a6ebd;
+}
+
+footer {
+    background: #23272f;
+    color: #fafafa;
+    padding: 2em 0 1em 0;
+    text-align: center;
+    border-top: 4px solid #0a6ebd;
 }
 .main-header h1 {
     margin: 0;
@@ -152,25 +191,12 @@ p {
 
 body {
     box-sizing: border-box;
-    background-color: #3a3a3a;
-    color: #ffffff;
-        max-width: 350px;
-        width: 100%;
-        padding: 1.5em 1em;
-        border: 1px solid #e0e0e0;
-        border-radius: 10px;
-        background: #f6f8f6;
-        color: #23272f;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-        margin: 16px 0 16px 0;
-        position: static;
-        flex-direction: column;
-        display: flex;
-        opacity: 0;
-        transform: translateY(30px);
-        animation: cardFadeIn 0.8s ease-out forwards;
-    max-width: 900px;
-    position: relative;
+    background: #f4f7fa;
+    color: #23272f;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 
 ::backdrop {
@@ -178,7 +204,5 @@ body {
 }
 
 footer, h4, p {
-    color: #fafafa;
-    
-    
+    /* color removed for better contrast and consistency */
 }

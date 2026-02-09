@@ -22,13 +22,14 @@
 		<h1>Smith Chamber of Commerce</h1>
 		<p>Connecting businesses and fostering growth in Saint George, UT</p>
 	</header>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="directory.html">Directory</a></li>
-				<li><a href="join.html">Join</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+	<nav class="side-nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="directory.html">Directory</a></li>
+			<li><a href="join.html">Join</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
 			<h2>Benefits to potential members</h2>
 			<ul>
 				<li>Networking opportunities with local businesses</li>
@@ -39,58 +40,52 @@
 			</ul>
 		</section>
 
-		<section class="join-form">
-			
-			<h2>Membership Application</h2>
-			<form action="thankyou.html" method="get">
-
-
-
-				<div class="card-form-group">
-					<label for="last-name">Last Name:</label>
-					<input type="text" id="last-name" name="last-name" title="Enter your last name" autocomplete="family-name" required>
-				</div>
-				<div class="card-form-group">
-					<label for="email-address">Email Address:</label>
-					<input type="email" id="email-address" name="email-address" title="Enter your email address" autocomplete="email" required placeholder="example@email.com">
-				</div>
-				<div class="card-form-group">
-					<label for="phone-number">Phone Number:</label>
-					<input type="tel" id="phone-number" name="phone-number" title="Enter your phone number" autocomplete="tel" required>
-				</div>
-				<div class="card-form-group">
-					<label for="organizational-title">Organizational Title:</label>
-					<input type="text" id="organizational-title" name="organizational-title" pattern="[A-Za-z\s\-]{7,}" title="At least 7 letters, hyphens, and spaces only" autocomplete="organization-title" required>
-				</div>
-				<div class="card-form-group">
-					<label for="business">Business/Organization:</label>
-					<input type="text" id="business" name="business" title="Enter your business or organization name" autocomplete="organization" required>
-				</div>
-				<div class="card-form-group">
-					<label for="membership">Membership Level:</label>
-					<select id="membership" name="membership" title="Select your membership level" autocomplete="organization" required>
-						<option value="">Select a level</option>
-						<option value="np">Non-Profit</option>
-						<option value="bronze">Bronze</option>
-						<option value="silver">Silver</option>
-						<option value="gold">Gold</option>
-					</select>
-				</div>
-				<div class="card-form-group">
-					<label for="description">Business Description:</label>
-					<textarea id="description" name="description" title="Describe your business" autocomplete="off" rows="1"></textarea>
-				</div>
-				<input type="hidden" id="timestamp" name="timestamp">
-
-				<button type="submit"> Join US</button>
-            
-			</form>
-		</section>
-
-
-		<div class="membership-levels-section">
-			<h3 id="card-container-title"> Membership Levels </h3>
-			<div id="card-container"> </div>
+		<div class="main-content-flex">
+			<section class="join-form">
+				<h2>Membership Application</h2>
+				<form action="thankyou.html" method="get">
+					<div class="card-form-group">
+						<label for="last-name">Last Name:</label>
+						<input type="text" id="last-name" name="last-name" title="Enter your last name" autocomplete="family-name" required>
+					</div>
+					<div class="card-form-group">
+						<label for="email-address">Email Address:</label>
+						<input type="email" id="email-address" name="email-address" title="Enter your email address" autocomplete="email" required placeholder="example@email.com">
+					</div>
+					<div class="card-form-group">
+						<label for="phone-number">Phone Number:</label>
+						<input type="tel" id="phone-number" name="phone-number" title="Enter your phone number" autocomplete="tel" required>
+					</div>
+					<div class="card-form-group">
+						<label for="organizational-title">Organizational Title:</label>
+						<input type="text" id="organizational-title" name="organizational-title" pattern="[A-Za-z\s\-]{7,}" title="At least 7 letters, hyphens, and spaces only" autocomplete="organization-title" required>
+					</div>
+					<div class="card-form-group">
+						<label for="business">Business/Organization:</label>
+						<input type="text" id="business" name="business" title="Enter your business or organization name" autocomplete="organization" required>
+					</div>
+					<div class="card-form-group">
+						<label for="membership">Membership Level:</label>
+						<select id="membership" name="membership" title="Select your membership level" autocomplete="organization" required>
+							<option value="">Select a level</option>
+							<option value="np">Non-Profit</option>
+							<option value="bronze">Bronze</option>
+							<option value="silver">Silver</option>
+							<option value="gold">Gold</option>
+						</select>
+					</div>
+					<div class="card-form-group">
+						<label for="description">Business Description:</label>
+						<textarea id="description" name="description" title="Describe your business" autocomplete="off" rows="1"></textarea>
+					</div>
+					<input type="hidden" id="timestamp" name="timestamp">
+					<button type="submit"> Join US</button>
+				</form>
+			</section>
+			<aside class="membership-levels-section">
+				<h3 id="card-container-title"> Membership Levels </h3>
+				<div id="card-container"> </div>
+			</aside>
 		</div>
 	</main>
 
