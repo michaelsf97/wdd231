@@ -121,17 +121,38 @@
             </div>
 				<h1>Join Smith Chamber of Commerce</h1>
                 <h4>Follow Us</h4>
-                <div class="social-links">
-                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook fa-2x"></i></a>
-                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Smith Chamber Of Commerce. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
+
+				<div class="card-form-group">
+					<label for="fullname">Full Name:</label>
+					<input type="text" id="fullname" name="fullname" title="Enter your full name" autocomplete="name" required>
+				</div>
+				<div class="card-form-group">
+					<label for="email-address">Email Address:</label>
+					<input type="email" id="email-address" name="email-address" title="Enter your email address" autocomplete="email" required placeholder="example@email.com">
+				</div>
+				<div class="card-form-group">
+					<label for="phone-number">Phone Number:</label>
+					<input type="tel" id="phone-number" name="phone-number" title="Enter your phone number" autocomplete="tel" required>
+				</div>
+				<div class="card-form-group">
+					<label for="organizational-title">Organizational Title:</label>
+					<input type="text" id="organizational-title" name="organizational-title" pattern="[A-Za-z\s\-]{7,}" title="At least 7 letters, hyphens, and spaces only" autocomplete="organization-title" required>
+				</div>
+				<div class="card-form-group">
+					<label for="business">Business/Organization:</label>
+					<input type="text" id="business" name="business" title="Enter your business or organization name" autocomplete="organization" required>
+				</div>
+				<div class="card-form-group">
+					<label for="membership">Membership Level:</label>
+					<select id="membership" name="membership" title="Select your membership level" autocomplete="organization" required>
+						<option value="">Select a level</option>
+						<option value="bronze">Bronze</option>
+						<option value="silver">Silver</option>
+						<option value="gold">Gold</option>
+					</select>
+				</div>
+				<div class="card-form-group">
+					<label for="description">Business Description:</label>
+					<textarea id="description" name="description" title="Describe your business" autocomplete="off" rows="1"></textarea>
+				</div>
+				<input type="hidden" id="timestamp" name="timestamp">
