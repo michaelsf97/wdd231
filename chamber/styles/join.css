@@ -253,7 +253,3 @@ body {
 ::backdrop {
     background-color: rgb(0 0 0 / 50%);
 }
-
-footer, h4, p {
-    /* color removed for better contrast and consistency */
-}
