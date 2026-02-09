@@ -102,8 +102,8 @@
 }
 
 footer {
-    background: #23272f;
-    color: #fafafa;
+    background: rgb(0,77,77);
+    color: #fff;
     padding: 2em 0 1em 0;
     text-align: center;
     border-top: 4px solid #0a6ebd;
