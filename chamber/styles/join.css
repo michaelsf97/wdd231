@@ -1,27 +1,8 @@
-#card-container-title {
-    margin-bottom: 1.5em;
-    text-align: center;
-}
 
-#card-container {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    margin-top: 1.5em; /* Add space below the title */
-    position: static;
-}
 
-.card {
-    max-width: 300px;
-    width: 100%;
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background: #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    margin: 0;
-    position: static; /* ensure no absolute/fixed positioning */
-}
+
+
+
 .membership-form {
     display: flex;
     flex-direction: column;
@@ -84,36 +65,38 @@ ul li {
     align-items: flex-start;
 }
 
+
+
 #card-container-title {
     margin-bottom: 1.5em;
     text-align: center;
 }
 
-
 #card-container {
-    
     display: flex;
     justify-content: flex-end;
     width: 100%;
     margin-top: 0.5em;
     z-index: 1;
+    position: static;
 }
 
 .card {
-    
+    max-width: 300px;
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #fefdfd;
+    border-radius: 8px;
+    background: #f6f8f6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 12px;
+    position: static;
     flex-direction: column;
     display: flex;
-    border: 1px solid #fefdfd;
-    background-color: #f6f8f6;
-    border-radius: 8px;
-    padding: 16px;
-    max-width: 300px;
     margin-right: 2rem;
-    margin: 12px;
     opacity: 0;
     transform: translateY(30px);
     animation: cardFadeIn 0.8s ease-out forwards;
-    
 }
 
 @keyframes cardFadeIn {
@@ -137,6 +120,13 @@ p {
 }
 
 body {
+    box-sizing: border-box;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 100%;
     position: relative;
     min-height: 100vh;
 }
