@@ -9,7 +9,57 @@
         margin: 0 auto 2em auto;
         width: 100%;
     }
+/* Side navigation styles */
+.side-nav {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 180px;
+    background: #23272f;
+    padding: 2em 1em 2em 1.5em;
+    border-radius: 0 12px 12px 0;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.07);
+    z-index: 10;
+}
+.side-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.side-nav li {
+    margin-bottom: 1.5em;
+}
+.side-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    transition: color 0.2s;
+}
+.side-nav a:hover {
+    color: #0a6ebd;
+    text-decoration: underline;
+}
 
+@media (max-width: 700px) {
+    .side-nav {
+        position: static;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 1em 0.5em;
+        text-align: center;
+    }
+    .side-nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 1.5em;
+    }
+    .side-nav li {
+        margin-bottom: 0;
+    }
+}
     .join-form {
         flex: 2 1 400px;
         min-width: 340px;
