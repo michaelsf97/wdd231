@@ -10,3 +10,14 @@ label {
     background-color: #4CA;
 
 }
+
+textarea {
+    border-radius: 9px;
+    background-color: #3A3A3A;
+}
+
+button:hover {
+    background-color:#4CA;
+    
+    
+}
