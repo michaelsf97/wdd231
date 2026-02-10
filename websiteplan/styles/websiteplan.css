@@ -4,3 +4,9 @@ body {
     margin: 0;
     padding: 20px;
 }
+
+label {
+    border-radius: 8px;
+    background-color: #4CA;
+
+}
