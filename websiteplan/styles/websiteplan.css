@@ -29,4 +29,5 @@ nav ul {
     overflow: hidden;
     background-color: #333;
     align-content: space-around;
+    justify-content: space-around;
 }
