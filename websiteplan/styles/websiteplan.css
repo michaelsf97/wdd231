@@ -34,3 +34,10 @@ nav ul li {
     top: 80px;
     right: 80px;
 }
+
+.question-1 {
+    background-color: #4CA;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
