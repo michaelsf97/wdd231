@@ -13,7 +13,8 @@
 
 
 body {
-    background-color: #f0f0f0;
+    background-color: #AEC9E0;
+    color: #000080;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 20px;
@@ -22,7 +23,7 @@ body {
 label {
     border-radius: 8px;
     background-color: #5B93C4;
-
+    color: #ffffff;
 }
 
 textarea {
