@@ -24,14 +24,14 @@ button:hover {
 
 nav ul li {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     overflow: hidden;
     background-color: #333;
-    align-content: space-around;
-    justify-content: space-around;
+    align-content: center;
+    justify-content: center;
     display: flex;
     position: absolute;
     top: 80px;
-    right: 0;
+    right: 50px;
 }
