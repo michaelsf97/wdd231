@@ -30,4 +30,8 @@ nav ul {
     background-color: #333;
     align-content: space-around;
     justify-content: space-around;
+    display: flex;
+    position: absolute;
+    top: 120px;
+    left: 0;
 }
