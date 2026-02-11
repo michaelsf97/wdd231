@@ -50,6 +50,11 @@ nav ul li {
     right: 80px;
 }
 
+nav a {
+  color: #00008A;
+  text-decoration: underline; 
+}
+
 .question-1 {
     background-color: #5B93C4;
     border-radius: 8px;
