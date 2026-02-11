@@ -55,6 +55,11 @@ nav a {
   text-decoration: underline; 
 }
 
+nav i, nav img.icon {
+  color: #00008A; 
+  background: transparent; 
+}
+
 .question-1 {
     background-color: #5B93C4;
     border-radius: 8px;
