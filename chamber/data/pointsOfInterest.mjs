@@ -33,7 +33,7 @@ export const pointsOfInterest = [
     name: "Old Town Historic District",
     address: "1 Historic Way",
     description: "Stroll through charming streets lined with unique shops, restaurants, and historic architecture.",
-    image: "images/downtown.webp"
+    image: "images/oldtown.webp"
   },
   {
     name: "Pine Ridge Hiking Trail",
