@@ -3,19 +3,19 @@ export const pointsOfInterest = [
     name: "City Park",
     address: "123 Park Lane",
     description: "A spacious city park featuring walking trails, playgrounds, picnic areas, and a beautiful pond.",
-    image: "images/park.webp"
+    image: "images/utahpark97.webp"
   },
   {
     name: "Heritage History Museum",
     address: "45 Main Street",
     description: "Explore local history through interactive exhibits, artifacts, and guided tours at the Heritage Museum.",
-    image: "images/museum.webp"
+    image: "images/fabric.jpg"
   },
   {
     name: "Downtown Farmers Market",
     address: "200 Market Avenue",
     description: "Fresh produce, handmade crafts, and local treats are available every Saturday morning at the market.",
-    image: "images/farmers-market.webp"
+    image: "images/google.jpg"
   },
   {
     name: "Riverbend Recreation Center",
