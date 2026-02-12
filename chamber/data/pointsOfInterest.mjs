@@ -27,7 +27,7 @@ export const pointsOfInterest = [
     name: "Spring Arts Festival",
     address: "500 Festival Plaza",
     description: "An annual celebration of local art, music, and food, drawing visitors from across the region.",
-    image: "images/arts-festival.webp"
+    image: "images/springartfestival97.webp"
   },
   {
     name: "Old Town Historic District",
