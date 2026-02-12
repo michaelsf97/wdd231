@@ -10,7 +10,10 @@
 @media (min-width: 1025px) {
     .points-of-interest {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas:
+            "card1 card2 card3 card4"
+            "card5 card6 card7 card8";
             gap: 2.5rem;
     }
         .points-of-interest .poi-card {
