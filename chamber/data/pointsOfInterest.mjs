@@ -39,7 +39,7 @@ export const pointsOfInterest = [
     name: "Pine Ridge Hiking Trail",
     address: "300 Trailhead Drive",
     description: "A popular trail with scenic views, wildlife, and well-marked paths for all skill levels.",
-    image: "images/trail.webp"
+    image: "images/hiking-trail.webp"
   },
   {
     name: "Maplewood Public Library",
