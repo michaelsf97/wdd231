@@ -36,10 +36,10 @@ export const pointsOfInterest = [
     image: "images/oldtown.webp"
   },
   {
-    name: "Pine Ridge Hiking Trail",
+    name: "Museum of Local History",
     address: "300 Trailhead Drive",
-    description: "A popular trail with scenic views, wildlife, and well-marked paths for all skill levels.",
-    image: "images/trial97.webp"
+    description: "A museum with local history through all aspects and facts with the city.",
+    image: "images/museum.webp"
   },
   {
     name: "Maplewood Public Library",
