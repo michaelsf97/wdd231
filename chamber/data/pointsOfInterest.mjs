@@ -4,12 +4,12 @@ export const pointsOfInterest = [
     address: "123 Park Lane",
     description: "A spacious city park featuring walking trails, playgrounds, picnic areas, and a beautiful pond.",
     image: "images/utahpark97.webp"
+  },
   {
     name: "Pine Ridge Hiking Trail",
     address: "300 Trailhead Drive",
     description: "A popular trail with scenic views, wildlife, and well-marked paths for all skill levels.",
     image: "images/trial97.webp"
-  },
   },
   {
     name: "Downtown Farmers Market",
@@ -46,5 +46,5 @@ export const pointsOfInterest = [
     address: "75 Library Lane",
     description: "A welcoming library with books, digital resources, study spaces, and events for all ages.",
     image: "images/library.webp"
-  }
+  },
 ];
