@@ -15,7 +15,7 @@ export const pointsOfInterest = [
     name: "Downtown Farmers Market",
     address: "200 Market Avenue",
     description: "Fresh produce, handmade crafts, and local treats are available every Saturday morning at the market.",
-    image: "images/google.jpg"
+    image: "images/farmermarket.webp"
   },
   {
     name: "Riverbend Recreation Center",
