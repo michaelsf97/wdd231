@@ -37,7 +37,7 @@ export const pointsOfInterest = [
   },
   {
     name: "Museum of Local History",
-    address: "300 Trailhead Drive",
+    address: "45 Main Street",
     description: "A museum with local history through all aspects and facts with the city.",
     image: "images/museum.webp"
   },
@@ -45,6 +45,6 @@ export const pointsOfInterest = [
     name: "Maplewood Public Library",
     address: "75 Library Lane",
     description: "A welcoming library with books, digital resources, study spaces, and events for all ages.",
-    image: "images/library.webp"
+    image: "images/maplewoodpubliclibrary.webp"
   },
 ];
