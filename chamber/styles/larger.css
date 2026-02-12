@@ -10,8 +10,9 @@
     .points-of-interest {
         display: grid;
         grid-template-areas:
-            "card1 card2 card3 card4"
-            "card5 card6 card7 card8";
+            "card1 card2 card3"
+            "card4 card5 card6"
+            "card7 card8";
         gap: 2.5rem;
     }
     .points-of-interest .poi-card:nth-child(1) { grid-area: card1; }
