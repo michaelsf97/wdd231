@@ -1,0 +1,11 @@
+/* medium.css: Styles for medium-sized screens */
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        background-color: #f5f5f5;
+    }
+    main {
+        padding: 2rem;
+    }
+    /* Add or modify more rules for medium screens here */
+}
