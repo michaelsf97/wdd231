@@ -2,12 +2,16 @@
 .points-of-interest {
     display: grid;
     grid-template-areas:
-        "card1", "card2"
-        "card3", "card4"
-        "card5", "card6"
-        "card7", "card8";
-        gap: 1.5rem;
-    }
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+    gap: 3rem;
+}
         
         
         
