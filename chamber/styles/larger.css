@@ -6,6 +6,7 @@
         transform: scale(1.08) rotate(-2deg);
         box-shadow: 0 8px 24px rgba(0,0,0,0.18);
     }
+}
 @media (min-width: 1025px) {
     .points-of-interest {
         display: grid;
