@@ -21,7 +21,7 @@ export const pointsOfInterest = [
     name: "Riverbend Recreation Center",
     address: "88 River Road",
     description: "A modern facility offering fitness classes, a swimming pool, basketball courts, and community events.",
-    image: "images/rec-center.webp"
+    image: "images/riverbendrecreationcenter.webp"
   },
   {
     name: "Spring Arts Festival",
