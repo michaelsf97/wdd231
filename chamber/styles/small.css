@@ -86,7 +86,6 @@ html {
 
 nav {
     display: flex;
-    position: absolute;
     top: 100%;
     align-items: center;
     width: 100%;
