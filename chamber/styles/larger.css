@@ -9,21 +9,13 @@
 }
 @media (min-width: 1025px) {
     .points-of-interest {
-        display: grid;
-        grid-template-areas:
-            "card1 card2 card3"
-            "card4 card5 card6"
-            "card7 card8";
-        gap: 2.5rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.5rem;
     }
-    .points-of-interest .poi-card:nth-child(1) { grid-area: card1; }
-    .points-of-interest .poi-card:nth-child(2) { grid-area: card2; }
-    .points-of-interest .poi-card:nth-child(3) { grid-area: card3; }
-    .points-of-interest .poi-card:nth-child(4) { grid-area: card4; }
-    .points-of-interest .poi-card:nth-child(5) { grid-area: card5; }
-    .points-of-interest .poi-card:nth-child(6) { grid-area: card6; }
-    .points-of-interest .poi-card:nth-child(7) { grid-area: card7; }
-    .points-of-interest .poi-card:nth-child(8) { grid-area: card8; }
+        .points-of-interest .poi-card {
+            margin: 0;
+        }
 }
 @media (min-width: 770px) {
     .hero {
