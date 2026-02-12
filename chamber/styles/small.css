@@ -2,16 +2,18 @@
 .points-of-interest {
     display: grid;
     grid-template-areas:
-        "card1"
-        "card2"
-        "card3"
-        "card4"
-        "card5"
-        "card6"
-        "card7"
-        "card8";
-    gap: 1.5rem;
-}
+        "card1", "card2"
+        "card3", "card4"
+        "card5", "card6"
+        "card7", "card8";
+        gap: 1.5rem;
+    }
+        
+        
+        
+        
+    
+
 .points-of-interest .poi-card:nth-child(1) { grid-area: card1; }
 .points-of-interest .poi-card:nth-child(2) { grid-area: card2; }
 .points-of-interest .poi-card:nth-child(3) { grid-area: card3; }
@@ -83,10 +85,10 @@ html {
 /* NAVIGATION LINKS */
 
 nav {
-    display: none;
+    display: flex;
     position: absolute;
     top: 100%;
-    left: 0;
+    align-items: center;
     width: 100%;
     background: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
