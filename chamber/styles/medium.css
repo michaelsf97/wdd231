@@ -18,7 +18,7 @@
             "card3 card4"
             "card5 card6"
             "card7 card8";
-        gap: 2rem;
+        gap: 1rem;
     }
     .points-of-interest .poi-card:nth-child(1) { grid-area: card1; }
     .points-of-interest .poi-card:nth-child(2) { grid-area: card2; }

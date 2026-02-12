@@ -13,9 +13,6 @@
     gap: 3rem;
 }
         
-        
-        
-        
     
 
 .points-of-interest .poi-card:nth-child(1) { grid-area: card1; }
