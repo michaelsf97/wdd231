@@ -28,8 +28,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // Use requestAnimationFrame for smoother DOM updates
   window.requestAnimationFrame(() => {
     section.innerHTML = "";
-    pointsOfInterest.forEach(item => {
+    pointsOfInterest.forEach((item, idx) => {
       const card = document.createElement("article");
+      
+      card.style.gridArea = `card${idx + 1}`;
       card.className = "poi-card";
       card.innerHTML = `
         <h2>${item.name}</h2>
