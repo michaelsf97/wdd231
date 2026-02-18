@@ -12,3 +12,25 @@
         "card8";
     gap: 3rem;
 }
+
+.slider {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+}
+.slide {
+  width: 100%;
+  display: none;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+.prev { left: 0; }
+.next { right: 0; }
