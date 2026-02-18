@@ -23,3 +23,38 @@
 .points-of-interest .poi-card:nth-child(8) { grid-area: card8; }
 
 
+/* NAVIGATION LINKS */
+
+nav {
+    display: flex;
+    top: 100%;
+    align-items: center;
+    width: 100%;
+    background: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.navigation.show {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 1rem;
+}
