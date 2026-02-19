@@ -448,3 +448,27 @@ footer a:hover {
     color: #f5a623;
     text-decoration: underline;
 }
+
+/* Small screens only */
+@media (max-width: 768px) {
+  #hamb-btn {
+    display: block;
+    border: 0;
+    background: transparent;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  #hamb-btn::before { content: "☰"; }
+  #hamb-btn.open::before { content: "✕"; }
+
+  #nav-bar ul {
+    display: none;              /* hidden until hamburger click */
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  #nav-bar.open ul {
+    display: flex;              /* show after click */
+  }
+}
