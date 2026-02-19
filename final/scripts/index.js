@@ -1,10 +1,12 @@
-const hamButton = document.getElementById('#ham-btn');
-const navBar = document.getElementById('#nav-bar');
+const hamButton = document.getElementById('ham-btn');
+const navBar = document.getElementById('nav-bar');
 
-
-//
-navButton.addEventListener('click', () => {
+if (hamButton && navBar) {
+  hamButton.addEventListener('click', () => {
     console.log('Clicked');
-    navButton.classList.toggle('show');
+    hamButton.classList.toggle('show');
     navBar.classList.toggle('show');
-});
+  });
+} else {
+  console.error('Missing #ham-btn or #nav-bar in HTML.');
+}
