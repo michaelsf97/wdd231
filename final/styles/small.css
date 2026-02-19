@@ -34,7 +34,7 @@ nav {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     z-index: 1000;
 }
-
+l
 .navigation.show {
     display: block;
 }
@@ -61,12 +61,12 @@ nav ul li a {
 
 /* HAMBURGER BUTTON */
 .hamburger {
-    display: inline-block; 
+    display: block; 
     font-size: 2.5rem;
     color: #000;
     cursor: pointer;
     font-family: Verdana;
-    background: #fff;
+    background: transparent;
     position: relative;
     border: 2px solid #333;
     border-radius: 4px;
@@ -82,4 +82,17 @@ nav ul li a {
 
 .hamburger.show::before {
     content: "\00D7";
+}
+
+#nav-bar ul {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar.open ul {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
 }
