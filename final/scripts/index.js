@@ -1,5 +1,5 @@
-const hamButton = document.getElementById('#ham-btn');
-const navBar = document.getElementById('#nav-bar');
+const hamButton = document.getElementById('ham-btn');
+const navBar = document.getElementById('nav-bar');
 
 if (hamButton && navBar) {
   hamButton.addEventListener('click', () => {
