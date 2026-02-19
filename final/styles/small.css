@@ -58,3 +58,36 @@ nav ul li a {
     color: #333;
     padding: 1rem;
 }
+
+/* HAMBURGER BUTTON */
+#ham-btn {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+#ham-btn::before,
+#ham-btn::after,
+#ham-btn span {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #333;
+    transition: all 0.3s ease;
+}
+
+#ham-btn.active::before {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+#ham-btn.active::after {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+#ham-btn.active span {
+    opacity: 0;
+}
