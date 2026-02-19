@@ -19,7 +19,7 @@ export const pointsOfInterest = [
     },
     {
         name: "Fishtape",
-        toollevel: "low",ntso
+        toollevel: "low",
         description: "Type of fishtape",
         image: "images/fishtape.webp"
     },
