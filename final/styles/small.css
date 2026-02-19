@@ -13,6 +13,10 @@
     gap: 3rem;
 }
 
+.poi-card {
+    display: block;
+}
+
 .points-of-interest .poi-card:nth-child(1) { grid-area: card1; }
 .points-of-interest .poi-card:nth-child(2) { grid-area: card2; }
 .points-of-interest .poi-card:nth-child(3) { grid-area: card3; }
@@ -59,7 +63,7 @@ nav ul li a {
 
 /* HAMBURGER BUTTON */
 .hamburger {
-    display: none; 
+    display: block;
     font-size: 2.5rem;
     color: #000;
     cursor: pointer;
