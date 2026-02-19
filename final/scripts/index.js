@@ -5,6 +5,6 @@ const navBar = document.getElementById('#nav-bar');
 //
 navButton.addEventListener('click', () => {
     console.log('Clicked');
-    navButton.classList.toggle('show');
+    navButton.classList.toggle('open');
     navBar.classList.toggle('show');
 });
